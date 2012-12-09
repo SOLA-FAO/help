@@ -49,7 +49,7 @@ public class HelpUtility {
 
     private HelpSet helpSet = null;
     private HelpBroker helpBroker;
-    
+    private String helpTopicName;
     private HelpUtility() {
     }
 
@@ -62,13 +62,21 @@ public class HelpUtility {
         return HelpUtilityHolder.INSTANCE;
     }
 
-    /**
+   /**
      * Returns a <code>HelpSet<code/> for the construction of an ActionListener.
      * @return Helpset 
      */
     private HelpSet getHelpSet() {
         if (helpSet == null) {
             String pathToHS = "defaultlang/HelpSet.xml";
+            String subpath = helpTopicName;
+            String initsubpath = subpath.substring(0, 1);
+            
+            if (initsubpath.contains("1")) {
+             String helpsetsubpath = subpath.substring(1, 5);
+             pathToHS = "defaultlang/HelpSet"+helpsetsubpath+".xml";   
+            }
+            
             try {
                 URL hsURL = getClass().getResource(pathToHS);
                 LogUtility.log("Found HelpSet at " + pathToHS, Level.FINE);
@@ -82,6 +90,8 @@ public class HelpUtility {
         }
         return helpSet;
     }
+
+
 
     private HelpBroker getHelpBroker(){
         if(helpBroker == null){
@@ -117,11 +127,13 @@ public class HelpUtility {
      * @param contextMapID MapID of the topic to be displayed
      */
     public void registerHelpMenu(JMenuItem object, String contextMapID) {
+        this.helpTopicName = contextMapID;
         getHelpBroker().enableHelpOnButton(object, contextMapID, getHelpSet());
     }
 
     /** Registers provided panel to display help topic upon F1 key press. */
     public void registerHelpKey(JPanel object, String contextMapID) {
+        this.helpTopicName = contextMapID;
         getHelpBroker().enableHelpKey(object, contextMapID, getHelpSet());
     }
     
@@ -138,7 +150,8 @@ public class HelpUtility {
     }
     
     public void showTopic(String contextMapID){
-        if(getHelpBroker().isDisplayed()){
+       helpTopicName = contextMapID;
+       if(getHelpBroker().isDisplayed()){
             getHelpBroker().setCurrentID(contextMapID); 
         } else {
             getHelpBroker().initPresentation();
@@ -146,4 +159,5 @@ public class HelpUtility {
         }
         ((javax.help.DefaultHelpBroker)getHelpBroker()).setDisplayed(true);
     }
+
 }

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+    <tocitem image="toplevelfolder" text="SOLA Bulk Operation Help">
+        <tocitem image="topic" target="1_blk_overview" text="Overview"/>
+        <tocitem image="topic" target="license" text="Licensing"/>
+        <tocitem image="category" text="SOLA Screens">
+            <tocitem image="topic" target="1_blk_importspatialpanel" text="Load Spatial Object"/>
+        </tocitem>
+        <tocitem image="topic" target="issues" text="Known Issues"/>
+    </tocitem>
+</toc>
+

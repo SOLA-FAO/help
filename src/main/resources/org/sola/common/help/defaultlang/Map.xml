@@ -16,6 +16,7 @@
     <mapID target="overview" url="MainTopics/sola_overview.html" />
     <mapID target="license" url="MainTopics/licensing.html" />
     <mapID target="issues" url="MainTopics/known_issues.html" />
+    <mapID target="1_blk_overview" url="MainTopics/sola_overview.html" />
     
     <mapID target="dashboard_and_main_menu" url="howtotopics/dashboard_and_main_menu.html" />
     <mapID target="map_viewer" url="howtotopics/map_viewer.html" />
@@ -51,5 +52,5 @@
     <mapID target="personSearch" url="howtotopics/personSearch.html" />
     <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
     <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
-
+    <mapID target="1_blk_importspatialpanel" url="howtotopics/1_blk_importspatialpanel.html" />
 </map>
