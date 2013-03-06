@@ -1,88 +1,111 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-  
-  <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
-  <title>Property Details</title>
 
-  
-</head><body style="margin-left: 24px; width: 1040px;">
-<h1>Property Details</h1>
+        <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+        <title>Property Details</title>
 
-<p>The Property Details screen allows you to create new property records or edit the details 
-    of an existing property. You can access the Property Details screen by starting a property
-    related service such as New Digital Title (used to create new property records), 
-    Register New Ownership, Register Mortgage, Vary Lease, etc, from the Application 
-    Details Service tab. 
-</p><br>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/21_property_details.png"><br>
+    </head><body style="margin-left: 24px; width: 1040px;">
+        <h1>Property Details</h1>
 
-<p>A property in the context of the Land Administration Domain Model (LADM - draft ISO standard
-    19152) is a Basic Administrative Unit (a.k.a. BA Unit). In a title registration system, it is 
-    the title. In line with LADM, the BA Unit is uniquely identifiable 
-    and links parcels to their applicable Rights, Restrictions and/or Responsibilities 
-    (a.k.a. RRR) for the purposes of registration with a land administration agency. 
-    Details that can be captured for a property are: <br></p>
-<ul>
+        <p>The Property Details screen allows you to create new property records or edit the details 
+            of an existing property. You can access the Property Details screen in view only mode by 
+            opening a search result from the Property Search screen. To edit property details, you must first
+            lodge an application that contains a Registration Service such as New Digital Title (used to create new property records) 
+            or Register New Ownership, Register Mortgage, etc assign the application and then Start the service from the Application Details Service tab. 
+            The Land Registration How To section discusses how to process various Registration Services using the Property Details screen.
+        </p><br>
 
-  <li>Parcels &#8211; The area(s) of land that define the extent of a property. Parcels 
-      can be spatially defined and/or textually described. <br>
-  </li>
-  <li>Rights, Restrictions & Responsibilities &#8211; The rights, restrictions or 
-      responsibilities the right holder(s) are accorded in relation to the parcels 
-      represented by the property.  These could be ownership rights, lease rights, 
-      mortgage rights, mining rights, access rights, servitudes, building restrictions, 
-      land use restrictions, caveats, etc.  <br>
-  </li>
-  <li>Ownership &#8211; Typically the primary right for a property is the right of ownership. 
-      Properties can have one or many owners each with a share in the property that may be 
-      implicitly defined or undivided. Note that changes in ownership are captured using the 
-      Ownership right on the Rights / Restrictions tab of the Property Details screen. 
-      The Ownership tab is provided on the Property Details screen to quickly view ownership 
-      history. <br>
-  </li>
-  <li>Notations &#8211; Short comments recorded when changes are made to the property that 
-      provide a succinct history of the changes. <br>
-  </li>
-  <li>Property history &#8211; Shows the list of parent properties (if any) that are superseded by the property (and whose objects the property will inherit) and the list of child properties (if any) that the property is superseded by 
-      (to which the property’s objects will be linked to) when the property is terminated. <br>
-  </li>
-  <li>Map &#8211; Provides the SOLA Map Viewer along with the Current property cadastre objects 
-      layer to allow you to identify the location of the property and its parcels and objects (if any). Recording this information can help to identify and distinguish the location of property’s objects, both current and pending
-      <br>
-  </li>
-</ul>
+        <img style="width: 600px; height: 362px;" alt="" src="../images/21_property_details.png"><br>
 
-<h2>Applications with Multiple Properties</h2>
+        <p>A property in the context of the Land Administration Domain Model (LADM - draft ISO standard
+            19152) is a Basic Administrative Unit (a.k.a. BA Unit). In a title registration system, it is 
+            the title. In line with LADM, the BA Unit is uniquely identifiable 
+            and links parcels to their applicable Rights, Restrictions and/or Responsibilities 
+            (a.k.a. RRR) for the purposes of registration with a land administration agency. 
+            A property links the rights and restrictions over a parcel to the individuals or groups 
+            (i.e. parties) that hold those rights. The information represented by the property is often referred to as the Title. 
+            Details that can be captured for a property include: <br></p>
+        <ul>
+            <li>General &#8211; General information about the property like the two part property reference (First part and Last part), 
+                estate type, status, area and description as well as documents relevant to the property. <br>
+            </li>
 
-<p>SOLA allows more than one property to be associated to an application. In this situation, 
-    the Select Property screen is displayed when you start a property related service allowing 
-    you to select the appropriate property to work on by double clicking.</p> <br>
+            <li>Parcels &#8211; The area(s) of land that define the extent of a property. Parcels 
+                can be spatially defined and/or textually described. <br>
+            </li>
+            <li>Rights, Restrictions & Responsibilities &#8211; The rights, restrictions or 
+                responsibilities the right holder(s) are accorded in relation to the parcels 
+                represented by the property.  These could be ownership rights, lease rights, 
+                mortgage rights, mining rights, access rights, servitudes, building restrictions, 
+                land use restrictions, caveats, etc.  <br>
+            </li>
+            <li>Ownership &#8211; Typically the primary right for a property is the right of ownership. 
+                Properties can have one or many owners each with a share in the property that may be 
+                implicitly defined or undivided. Note that changes in ownership are captured using the 
+                Ownership right on the Rights / Restrictions tab of the Property Details screen. 
+                The Ownership tab is provided on the Property Details screen to quickly view ownership 
+                history. <br>
+            </li>
+            <li>Notations &#8211; Short comments recorded when changes are made to the property that 
+                provide a succinct history of the changes. <br>
+            </li>
+            <li>Property history &#8211; Shows the list of parent properties (if any) that are superseded by the property 
+                (i.e. Prior Title) along with the list of child properties (if any) that the property has been superseded by when the property was terminated. <br>
+            </li>
+            <li>Map &#8211; Provides the SOLA Map Viewer highlighting the parcel for the property if one exists. . 
+                Recording this information can help to identify and distinguish the location of property’s objects, both current and pending
+                <br>
+            </li>
+        </ul>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/22_select_property.png"><br>
+        <h2>Right and Restriction Details</h2>
+        <p>
+            The Rights and Restrictions (RRR) tab shows summary information for all current and pending 
+            (i.e. unregistered) rights and restrictions on the property. You can access further information about
+            a specific right or restriction by selecting the RRR from the list and clicking the View toolbar button. 
+            The RRR details screen displayed will be dependent on the RRR you selected, however it should contain 
+            detailed information about the RRR as well as any supporting documentation that was linked to the RRR 
+            when it was first recorded
+            This tab also displays the Rights history for the property in the bottom section of the tab.
+            You can select and View the historic rights details as required. 
+            The other toolbar items available on this tab allow you to create, vary (modify) or extinguish (cancel) RRR.
+            To use these toolbar items you must first lodge an application with one or more Registration Services.
+            When you Start a Registration Service from the Application Details Services tab, it configures the 
+            Property Details screen enabling or disabling the RRR toolbar items relevant for that service.
+        </p><br>
+        <img style="width: 600px; height: 362px;" alt="" src="../images/rrr_details.jpg"><br>
+        
+        <h2>Applications with Multiple Properties</h2>
 
-<h2>Approving a Property Change</h2>
+        <p>SOLA allows more than one property to be associated to an application. In this situation, 
+            the Select Property screen is displayed when you start a property related service allowing 
+            you to select the appropriate property to work on by double clicking.</p> <br>
 
-<p>Changes made to the property such as the addition or removal of rights remain pending 
-    until the application is approved. You can approve the application by completing all 
-    services on the application and approving the application using the Approve tool 
-    in the Application Details toolbar.</p>
+        <img style="width: 600px; height: 362px;" alt="" src="../images/22_select_property.png"><br>
 
-<h2>Terminate a Property</h2>
+        <h2>Approving a Property Change</h2>
 
-<p>When a property has been superseded by new properties/titles and these new properties have inherited 
-    its object, then it has to be terminated. You can terminate the superseded property by linking all its objects to the new properties and terminating it, once the new properties change 
-    their status from pending to current, using the Terminate tool in the Property Details toolbar.</p> <br>
+        <p>Changes made to the property such as the addition or removal of rights remain pending 
+            until the application is approved. You can approve the application by completing all 
+            services on the application and approving the application using the Approve tool 
+            in the Application Details toolbar.</p>
 
-  <p><b>Also See</b></p>
-<ul>
-  <li><a href="add_ownership_details.html" target="_top">Add Ownership Details to a Property</a></li>
-  <li><a href="add_mortgage.html" target="_top">Add Mortgage Details to a Property</a></li>
-  <li><a href="linkProperty.html" target="_top">Link Property</a></li>
-  <li><a href="../MainTopics/known_issues.html" target="_top">Known Issues</a>
-  </li>
-</ul>
-<br>
-  <br>
+        <h2>Terminate a Property</h2>
 
-</body></html>
+        <p>When a property has been superseded by new properties/titles and these new properties have inherited 
+            its object, then it has to be terminated. You can terminate the superseded property by linking all its objects to the new properties and terminating it, once the new properties change 
+            their status from pending to current, using the Terminate tool in the Property Details toolbar.</p> <br>
+
+        <p><b>Also See</b></p>
+        <ul>
+            <li><a href="add_ownership_details.html" target="_top">Add Ownership Details to a Property</a></li>
+            <li><a href="add_mortgage.html" target="_top">Add Mortgage Details to a Property</a></li>
+            <li><a href="linkProperty.html" target="_top">Link Property</a></li>
+            <li><a href="../MainTopics/known_issues.html" target="_top">Known Issues</a>
+            </li>
+        </ul>
+        <br>
+        <br>
+
+    </body></html>

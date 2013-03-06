@@ -18,6 +18,7 @@
     <mapID target="issues" url="MainTopics/known_issues.html" />
     <mapID target="1_blk_overview" url="MainTopics/sola_overview.html" />
     
+    
     <mapID target="dashboard_and_main_menu" url="howtotopics/dashboard_and_main_menu.html" />
     <mapID target="map_viewer" url="howtotopics/map_viewer.html" />
     <mapID target="application_search" url="howtotopics/application_search.html" />
@@ -40,6 +41,7 @@
     <mapID target="attach_digital_document" url="howtotopics/attach_digital_document.html" />
     <mapID target="calculate_fees" url="howtotopics/calculate_fees.html" />
     <mapID target="verify_property_details" url="howtotopics/verify_property_details.html" />
+    <mapID target="cancel_withdraw_lapse_application" url="howtotopics/cancel_withdraw_lapse_application.html" />
     <mapID target="add_location" url="howtotopics/add_location.html" />
     <mapID target="add_ownership_details" url="howtotopics/add_ownership_details.html" />
     <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
@@ -53,4 +55,12 @@
     <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
     <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
     <mapID target="1_blk_importspatialpanel" url="howtotopics/1_blk_importspatialpanel.html" />
-</map>
+    <mapID target="1_blk_importsourcepanel" url="howtotopics/1_blk_importsourcepanel.html" />
+    <mapID target="sys_reg_rights_claim" url="howtotopics/sys_reg_rights_claim.html" />
+    <mapID target="sys_reg_record_objections" url="howtotopics/sys_reg_record_objections.html" />
+    <mapID target="sys_reg_record_resolutions" url="howtotopics/sys_reg_record_resolutions.html" />
+    <mapID target="sys_reg_public_disp_listing" url="howtotopics/sys_reg_public_disp_listing.html" />
+    <mapID target="sys_reg_public_disp_plots" url="howtotopics/sys_reg_public_disp_plots.html" />
+    <mapID target="sys_reg_certificates" url="howtotopics/sys_reg_certificates.html" />
+    <mapID target="sys_reg_status_report" url="howtotopics/sys_reg_status_report.html" />
+ </map>

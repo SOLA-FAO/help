@@ -36,6 +36,7 @@
             <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
             <tocitem image="topic" target="calculate_fees" text="Calculate Fees"/>
             <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
+            <tocitem image="topic" target="cancel_withdraw_lapse_application" text="Cancel Withdraw Lapse an Application"/>
             <tocitem image="topic" target="add_location" text="Add Location for Application"/>
             <tocitem image="topic" target="add_ownership_details" text="Add Ownership Details to a Property"/>
             <tocitem image="topic" target="share" text="Create share"/>
@@ -44,7 +45,13 @@
             <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
             <tocitem image="topic" target="perform_redefine_cadastre" text="Perform a Redefinition of Cadastre"/> 
             <tocitem image="topic" target="change_boundary" text="Change Boundary"/>
-            
+            <tocitem image="topic" target="sys_reg_rights_claim" text="Systematic Registration Rights Claim"/>
+            <tocitem image="topic" target="sys_reg_record_objections" text="Systematic Registration Record Objections"/>
+            <tocitem image="topic" target="sys_reg_record_resolutions" text="Systematic Registration Record Dispute Resolution"/>
+            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Prepare Public Display Listings"/>
+            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Prepare Public Display Plots"/>
+            <tocitem image="topic" target="sys_reg_certificates" text="Prepare Registration Certificates"/>
+            <tocitem image="topic" target="sys_reg_status_report" text="Prepare Status Work Reports"/>
         </tocitem>
 
         <tocitem image="topic" target="issues" text="Known Issues"/>			
