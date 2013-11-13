@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+<!-- Image Files -->
+  
+    <mapID target="toplevelfolder" url="images/toplevel.gif" />
+    <mapID target="category" url="images/category.gif" />
+    <mapID target="topic" url="images/topic.gif" />
+
+<!-- Topics -->
+
+    <mapID target="overview" url="MainTopics/sola_overview.html" />
+    <mapID target="license" url="MainTopics/licensing.html" />
+    <mapID target="issues" url="MainTopics/known_issues.html" />
+    <mapID target="1_blk_overview" url="MainTopics/sola_overview.html" />
+    
+    
+    <mapID target="dashboard_and_main_menu" url="howtotopics/dashboard_and_main_menu.html" />
+    <mapID target="map_viewer" url="howtotopics/map_viewer.html" />
+    <mapID target="application_search" url="howtotopics/application_search.html" />
+    <mapID target="application_details" url="howtotopics/application_details.html" />  
+    <mapID target="application_lifecycle" url="howtotopics/application_lifecycle.html" /> 
+    <mapID target="service_lifecycle" url="howtotopics/service_lifecycle.html" /> 
+    <mapID target="property_details" url="howtotopics/property_details.html" /> 
+    <mapID target="cadastre_change" url="howtotopics/cadastre_change.html" />
+    <mapID target="redefine_cadastre" url="howtotopics/redefine_cadastre.html" />
+    <mapID target="linkProperty" url="howtotopics/linkProperty.html" />
+    <mapID target="share" url="howtotopics/share.html" />
+    
+<!--Reference to the how tos-->
+    <mapID target="change_language" url="howtotopics/change_language.html" />
+    <mapID target="lodge_new_application" url="howtotopics/lodge_new_application.html" />
+    <mapID target="edit_an_application" url="howtotopics/edit_an_application.html" />
+    <mapID target="assign_an_application" url="howtotopics/assign_an_application.html" />
+    <mapID target="unassign_an_application" url="howtotopics/unassign_an_application.html" />
+    <mapID target="add_document" url="howtotopics/add_document.html" />
+    <mapID target="attach_digital_document" url="howtotopics/attach_digital_document.html" />
+    <mapID target="calculate_fees" url="howtotopics/calculate_fees.html" />
+    <mapID target="verify_property_details" url="howtotopics/verify_property_details.html" />
+    <mapID target="cancel_withdraw_lapse_application" url="howtotopics/cancel_withdraw_lapse_application.html" />
+    <mapID target="add_location" url="howtotopics/add_location.html" />
+    <mapID target="add_ownership_details" url="howtotopics/add_ownership_details.html" />
+    <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
+    <mapID target="add_simple_right" url="howtotopics/simpleRight.html" />
+    <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
+    <mapID target="perform_redefine_cadastre" url="howtotopics/perform_redefine_cadastre.html" />
+    <mapID target="change_boundary" url="howtotopics/change_boundary.html" />
+    <mapID target="propertySearch" url="howtotopics/propertySearch.html" />
+    <mapID target="person" url="howtotopics/person.html" />
+    <mapID target="personSearch" url="howtotopics/personSearch.html" />
+    <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
+    <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
+    <mapID target="1_blk_importspatialpanel" url="howtotopics/1_blk_importspatialpanel.html" />
+    <mapID target="1_blk_importsourcepanel" url="howtotopics/1_blk_importsourcepanel.html" />
+    <mapID target="sys_reg_rights_claim" url="howtotopics/sys_reg_rights_claim.html" />
+    <mapID target="sys_reg_record_objections" url="howtotopics/sys_reg_record_objections.html" />
+    <mapID target="sys_reg_record_resolutions" url="howtotopics/sys_reg_record_resolutions.html" />
+    <mapID target="sys_reg_public_disp_listing" url="howtotopics/sys_reg_public_disp_listing.html" />
+    <mapID target="sys_reg_public_disp_plots" url="howtotopics/sys_reg_public_disp_plots.html" />
+    <mapID target="sys_reg_certificates" url="howtotopics/sys_reg_certificates.html" />
+    <mapID target="sys_reg_status_report" url="howtotopics/sys_reg_status_report.html" />
+ </map>
