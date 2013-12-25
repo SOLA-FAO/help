@@ -46,15 +46,15 @@
             <tocitem image="topic" target="perform_cadastre_change" text="Выполнение изменения кадастра"/> 
             <tocitem image="topic" target="perform_redefine_cadastre" text="Выполнение изменения участка"/> 
             <tocitem image="topic" target="change_boundary" text="Изменение границ"/>
-            <tocitem image="topic" target="sys_reg_rights_claim" text="Systematic Registration Rights Claim"/>
-            <tocitem image="topic" target="sys_reg_record_objections" text="Systematic Registration Record Objections"/>
-            <tocitem image="topic" target="sys_reg_record_resolutions" text="Systematic Registration Record Dispute Resolution"/>
-            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Prepare Public Display Listings"/>
-            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Prepare Public Display Plots"/>
-            <tocitem image="topic" target="sys_reg_certificates" text="Prepare Registration Certificates"/>
-            <tocitem image="topic" target="sys_reg_status_report" text="Prepare Status Work Reports"/>
+            <tocitem image="topic" target="sys_reg_rights_claim" text="Запрос на системную регистрацию"/>
+            <tocitem image="topic" target="sys_reg_record_objections" text="Обжалование записи системной регистрации"/>
+            <tocitem image="topic" target="sys_reg_record_resolutions" text="Разрешение спора по записям системной регистрации"/>
+            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Подготовка списков публичного показа"/>
+            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Подготовка участков для публичного показа"/>
+            <tocitem image="topic" target="sys_reg_certificates" text="Подготовка сертификатов регистрации"/>
+            <tocitem image="topic" target="sys_reg_status_report" text="Подготовка отчетов о статусе и проделанной работе"/>
         </tocitem>
 
-        <tocitem image="topic" target="issues" text="Known Issues"/>			
+        <tocitem image="topic" target="issues" text="Известные проблемы"/>			
     </tocitem>
 </toc>

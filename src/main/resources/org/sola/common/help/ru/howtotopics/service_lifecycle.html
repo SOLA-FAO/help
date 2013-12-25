@@ -1,61 +1,67 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
-        <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
-        <title>Service Lifecycle</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Жизненный цикл услуги</title>
 
 
-    </head><body style="margin-left: 24px; margin-right: 24px; width: 1040px;">
-        <h1>Service Lifecycle</h1>
+    </head><body style="margin-left: 24px;">
+        <h1>Жизненный цикл услуги</h1>
 
-        <p>Like applications, services can also exist in different states which they transition to 
-            via service actions.  The actions you can apply to a service are:</p>
-
-        <ul>
-
-            <li>Lodge &#8211; This action is triggered when you save a new service for the first time. 
-                The Lodge action causes the service to be assigned the Lodged state. <br>
-            </li>
-            <li>Start &#8211; To start processing the service, use the Start tool on the Application 
-                Details Service tab toolbar. The Start action transitions the service into the Pending state. 
-                The Start tool is available when the application is assigned and one of the services in the 
-                Services list is selected. <br>
-            </li>
-            <li>Cancel &#8211; If a service is no longer required or is inappropriate for the application, 
-                the service can be cancelled using the Cancel tool on the Application Details Service tab 
-                toolbar. The Cancel action transitions the service into the Cancelled state. Note that all 
-                services must be in a state of Cancelled or Completed before the application can be approved. 
-                The Cancel tool is available when the application is assigned and one of the services in 
-                the Services list is selected. <br>
-            </li>
-            <li>Complete &#8211; To complete processing of the service, use the Complete tool on the 
-                Application Details Service tab toolbar. The Complete action executes business rules for 
-                the service and transitions it into the Complete state if the rule checks are successful. 
-                Note that all services must be in a state of Cancelled or Completed before the application 
-                can be approved. The Complete tool is available when the application is assigned and one 
-                of the services in the Services list is selected. <br></li>
-            <li>Revert &#8211; During quality review or approval, if the user determines a service requires
-                further attention, they can reset the status of the service using the Revert tool on the 
-                Application Details Service tab toolbar. The Revert action transitions the service back 
-                to the Pending state for further processing. The Revert tool is available when the 
-                application is assigned and the selected service has a Completed status. <br> </li>
-        </ul>
-
-        <p>The following state transition diagram illustrates the Service Lifecycle and the effect 
-            different actions have on service state. <br></p>
-
-        <img style="width: 600px; height: 362px;" alt="" src="../images/20_service_lifecycle.png"><br>
-
-        <p><b>Also See</b></p>
+        <p>
+            По аналогии с заявлениями, услуги могут также иметь различные состояния (статусы), которые 
+            назначаются/изменяются в результате определенных действий.
+            Следующие действия применимы к услугам:
+        </p>
 
         <ul>
-            <li><a href="application_details.html" target="_top">Application Details</a></li>
-            <li><a href="application_lifecycle.html" target="_top">Application Lifecycle</a></li>
-            <li><a href="lodge_new_application.html" target="_top">Lodge a new application</a></li>
-            <li><a href="edit_an_application.html" target="_top">Edit an application</a></li>
+            <li>
+                Подать (зарегистрировать) &#8211; Это действие происходит в момент создания и сохранения заявления. 
+                При регистрации, услуге присваивается статус "Зарегистрировано".
+            </li>
+            <li>
+                Старт &#8211; Запуск услуги на исполнение осуществляется нажатием кнопки "Старт" на панели инструментов, расположенной над списком услуг. 
+                Данное действие назначает статус услуги "На исполнении". Кнопка "Старт" активна в том случае, если заявление назначено на исполнение и 
+                выбранная услуга в списке имеет статус "Зарегистрировано" или "На исполнении".
+            </li>
+            <li>
+                Отмена &#8211; Если услуга была отменена к исполнению или добавлена по ошибке, можно отменить ее при помощи кнопки "Отмена" 
+                на панели инструментов услуг. Действие отмены, изменит статус услуги на "Отменено". Имейте ввиду, что все услуги в заявлении 
+                должны иметь в конечном итоге статус "Завершено" или "Отменено" для успешного одобрения заявления. 
+                Кнопка "Отмена" активна в том случае, если заявление назначено на исполнение и 
+                выбранная услуга в списке имеет статус "Зарегистрировано" или "На исполнении".
+            </li>
+            <li>
+                Завершить &#8211; Для завершения исполнения услуги, нажмите кнопку "Завершить" на панели инструментов услуг. 
+                Завершение услуги вызывает проверку бизнес-правил, относящихся к услуге и в случае успешной проверки, изменяет ее статус на "Завершено". 
+                Имейте ввиду, что все услуги в заявлении должны иметь в конечном итоге статус "Завершено" или "Отменено" для успешного одобрения заявления. 
+                Кнопка "Завершить" активна в том случае, если заявление назначено на исполнение и 
+                выбранная услуга в списке имеет статус "На исполнении".
+            </li>
+            <li>
+                Вернуть на доработку &#8211; В процессе контроля качества или одобрения заявления, пользователь понимает, что определенная 
+                услуга должна быть доработана, он может вернуть ее обратно на исполнение при помощи кнопки "Вернуть на доработку", расположенной на 
+                панели инструментов услуг. Данное действие присваивает статус услуги "На исполнении". 
+                Кнопка "Вернуть на доработку" активна в том случае, если заявление назначено на исполнение и 
+                выбранная услуга в списке имеет статус "Завершено".
+             </li>
         </ul>
-        <br>
-        <br>
-        <br>
+
+        <p>
+            Следующая диаграмма иллюстрирует жизненный цикл услуг и результат различных действий, влияющих на состояние услуги.
+        </p>
+
+        <p>
+            <img alt="" src="../images/20_service_lifecycle.png">
+        </p>
+
+        <b>Смотрите также:</b>
+
+        <ul>
+            <li><a href="application_details.html" target="_top">Форма заявления</a></li>
+            <li><a href="application_lifecycle.html" target="_top">Жизненный цикл заявления</a></li>
+            <li><a href="lodge_new_application.html" target="_top">Регистрация нового заявления</a></li>
+            <li><a href="edit_an_application.html" target="_top">Редактирование заявления</a></li>
+        </ul>
         <br>
     </body></html>

@@ -1,111 +1,129 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
-        <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
-        <title>Property Details</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Форма недвижимости</title>
 
 
-    </head><body style="margin-left: 24px; width: 1040px;">
-        <h1>Property Details</h1>
+    </head><body style="margin-left: 24px;">
+        <h1>Форма недвижимости</h1>
 
-        <p>The Property Details screen allows you to create new property records or edit the details 
-            of an existing property. You can access the Property Details screen in view only mode by 
-            opening a search result from the Property Search screen. To edit property details, you must first
-            lodge an application that contains a Registration Service such as New Digital Title (used to create new property records) 
-            or Register New Ownership, Register Mortgage, etc assign the application and then Start the service from the Application Details Service tab. 
-            The Land Registration How To section discusses how to process various Registration Services using the Property Details screen.
-        </p><br>
-
-        <img style="width: 600px; height: 362px;" alt="" src="../images/21_property_details.png"><br>
-
-        <p>A property in the context of the Land Administration Domain Model (LADM - draft ISO standard
-            19152) is a Basic Administrative Unit (a.k.a. BA Unit). In a title registration system, it is 
-            the title. In line with LADM, the BA Unit is uniquely identifiable 
-            and links parcels to their applicable Rights, Restrictions and/or Responsibilities 
-            (a.k.a. RRR) for the purposes of registration with a land administration agency. 
-            A property links the rights and restrictions over a parcel to the individuals or groups 
-            (i.e. parties) that hold those rights. The information represented by the property is often referred to as the Title. 
-            Details that can be captured for a property include: <br></p>
-        <ul>
-            <li>General &#8211; General information about the property like the two part property reference (First part and Last part), 
-                estate type, status, area and description as well as documents relevant to the property. <br>
-            </li>
-
-            <li>Parcels &#8211; The area(s) of land that define the extent of a property. Parcels 
-                can be spatially defined and/or textually described. <br>
-            </li>
-            <li>Rights, Restrictions & Responsibilities &#8211; The rights, restrictions or 
-                responsibilities the right holder(s) are accorded in relation to the parcels 
-                represented by the property.  These could be ownership rights, lease rights, 
-                mortgage rights, mining rights, access rights, servitudes, building restrictions, 
-                land use restrictions, caveats, etc.  <br>
-            </li>
-            <li>Ownership &#8211; Typically the primary right for a property is the right of ownership. 
-                Properties can have one or many owners each with a share in the property that may be 
-                implicitly defined or undivided. Note that changes in ownership are captured using the 
-                Ownership right on the Rights / Restrictions tab of the Property Details screen. 
-                The Ownership tab is provided on the Property Details screen to quickly view ownership 
-                history. <br>
-            </li>
-            <li>Notations &#8211; Short comments recorded when changes are made to the property that 
-                provide a succinct history of the changes. <br>
-            </li>
-            <li>Property history &#8211; Shows the list of parent properties (if any) that are superseded by the property 
-                (i.e. Prior Title) along with the list of child properties (if any) that the property has been superseded by when the property was terminated. <br>
-            </li>
-            <li>Map &#8211; Provides the SOLA Map Viewer highlighting the parcel for the property if one exists. . 
-                Recording this information can help to identify and distinguish the location of property’s objects, both current and pending
-                <br>
-            </li>
-        </ul>
-
-        <h2>Right and Restriction Details</h2>
         <p>
-            The Rights and Restrictions (RRR) tab shows summary information for all current and pending 
-            (i.e. unregistered) rights and restrictions on the property. You can access further information about
-            a specific right or restriction by selecting the RRR from the list and clicking the View toolbar button. 
-            The RRR details screen displayed will be dependent on the RRR you selected, however it should contain 
-            detailed information about the RRR as well as any supporting documentation that was linked to the RRR 
-            when it was first recorded
-            This tab also displays the Rights history for the property in the bottom section of the tab.
-            You can select and View the historic rights details as required. 
-            The other toolbar items available on this tab allow you to create, vary (modify) or extinguish (cancel) RRR.
-            To use these toolbar items you must first lodge an application with one or more Registration Services.
-            When you Start a Registration Service from the Application Details Services tab, it configures the 
-            Property Details screen enabling or disabling the RRR toolbar items relevant for that service.
-        </p><br>
-        <img style="width: 600px; height: 362px;" alt="" src="../images/rrr_details.jpg"><br>
-        
-        <h2>Applications with Multiple Properties</h2>
+            Форма недвижимости позволяет создать новую запись о недвижимости или отредактировать существующую.
+            Информация о недвижимости может быть открыта для просмотра из результатов поиска на форме поиска недвижимости. 
+            Для изменения данных недвижимости и ее прав, необходимо сначала подать соответствующее заявление содержащие услуги по 
+            регистрации прав собственности, ограничения или их изменения/прекращения. После того как заявление будет назначено на исполнение 
+            и запущена соответствующая услуга, появится форма недвижимости. Смотрите раздел справки "Доступные операции" для 
+            описания регистрации различных прав.
+        </p>
+        <p>
+            <img alt="" src="../images/21_property_details.png">
+        </p>
 
-        <p>SOLA allows more than one property to be associated to an application. In this situation, 
-            the Select Property screen is displayed when you start a property related service allowing 
-            you to select the appropriate property to work on by double clicking.</p> <br>
-
-        <img style="width: 600px; height: 362px;" alt="" src="../images/22_select_property.png"><br>
-
-        <h2>Approving a Property Change</h2>
-
-        <p>Changes made to the property such as the addition or removal of rights remain pending 
-            until the application is approved. You can approve the application by completing all 
-            services on the application and approving the application using the Approve tool 
-            in the Application Details toolbar.</p>
-
-        <h2>Terminate a Property</h2>
-
-        <p>When a property has been superseded by new properties/titles and these new properties have inherited 
-            its object, then it has to be terminated. You can terminate the superseded property by linking all its objects to the new properties and terminating it, once the new properties change 
-            their status from pending to current, using the Terminate tool in the Property Details toolbar.</p> <br>
-
-        <p><b>Also See</b></p>
+        <p>
+            Недвижимость в контексте Land Administration Domain Model (LADM - драфт стандарта ISO 19152) 
+            является базовой административной единицой (также известной как BA Unit). 
+            В соответствии с LADM, BA Unit имеет уникальную идентификацию и связывает земельные участки с 
+            правами, ограничениями и ответственностью (RRR), зарегистрированных на них.
+            Также объект недвижимости связывает права и ограничения с индивидуальными лицами или группами лиц (организаций), 
+            являющимися обладателями этих прав.
+            Следующая информация может быть сохранена для объекта недвижимости:
+        </p>
         <ul>
-            <li><a href="add_ownership_details.html" target="_top">Add Ownership Details to a Property</a></li>
-            <li><a href="add_mortgage.html" target="_top">Add Mortgage Details to a Property</a></li>
-            <li><a href="linkProperty.html" target="_top">Link Property</a></li>
-            <li><a href="../MainTopics/known_issues.html" target="_top">Known Issues</a>
+            <li>
+                Общее &#8211; Общая информация о недвижимости, такая как идентификационный номер, состоящий из двух частей (Первая и последняя части), 
+                тип имущества, статус, площадь, описание и основной документ права собственности.
+            </li>
+
+            <li>
+                Участки &#8211; Выделенная земельная площадь для определения объекта недвижимости. 
+                Участки могут быть пространственно определены и/или описаны в текстовой форме.
+            </li>
+            <li>
+                Права/Ограничения &#8211; Права, ограничения и ответственность, зарегистрированные на соответствующих правообладателей 
+                в отношении указанных земельных участков. Права могут включать в себя право собственности, аренды, ипотеки, добычи ископаемых ресурсов, 
+                права пользования, сервитуты, ограничения на застройку (здания), ограничения на тип землепользования, аресты и т.д.
+            </li>
+            <li>
+                Право собственности &#8211; Обычно первичное право собственности является правом самим правом собственности. 
+                Недвижимость может иметь одного или нескольких собственников и соответствующими долями, которые могут быть 
+                неделимыми (общими) или с указанием процентного соотношения. 
+                Изменения в правах собственности могут производиться на вкладке "Права/Ограничения" формы недвижимости. 
+                Вкладка "Право собственности" отображает текущее право собственности в режиме только для чтения и зависит 
+                от записей на вкладке "Права/Ограничения".
+            </li>
+            <li>
+                Описания транзакций &#8211; Короткое описание вносимых изменений в права недвижимости. 
+                Данные описания вводятся при регистрации или изменении прав.
+            </li>
+            <li>
+                История недвижимости &#8211; Отображает список родительских и дочерних объектов недвижимого имущества, 
+                которые появились в результате объединения или разделения. Если недвижимость появилась на основе разделения или объединения 
+                в списке родительских объектов должны присутствовать старые объекты недвижимости. С другой стороны, если при помощи поиска недвижимости 
+                (или из списка родительских объектов) открыть старый объект недвижимости, вы увидите новые объекты, созданные на его основе 
+                в списке дочерних объектов.
+            </li>
+            <li>
+                Карта &#8211; Отображает карту, с выделением участков, привязанных к объекту недвижимости. Участки будут выделены в случае если имеется 
+                их пространственное представление.
             </li>
         </ul>
-        <br>
+
+        <h2>Права и ограничения</h2>
+        <p>
+            Вкладка "Права/Ограничения" отображает общую информацию обо всех правах и ограничениях в независимости от их статуса. 
+            Права могут иметь статусы "текущий" (активный), "на исполнении" (временный), "предыдущий" (предыдущее состояния права) и "история" (прекращенное). 
+            Для получения более подробной информации о праве, выделите его в списке и нажмите кнопку "Просмотреть". 
+            В зависимости от выбранного права, будет открыта соответствующая форма, которая включает общую информацию о регистрации права и его документы, 
+            а также специфичную информацию, относящуюся к выбранному типу права. При помощи других кнопок панели инструментов, вы можете создавать, изменять 
+            и прекращать права. Доступность данных кнопок будет определяться услугой в заявление, на основе которой вы вносите изменения. Стоит отметить, что 
+            кнопки "Редактировать" и "Удалить" доступны для прав со статусом "на исполнение" (которые еще не одобрены), 
+            в то время как кнопки "Изменить" и "Прекратить" применимы к правам с текущим статусом и ведут к изменению текущего права или его прекращению.
+            Также на вкладке "Права/Ограничения" отображается история прав, информацию о каждом из которых можно просмотреть выбрав и нажав кнопку "Просмотреть".
+        </p>
+        
+        <p>
+            <img alt="" src="../images/rrr_details.png"><br>
+        </p>
+        
+        <h2>Заявление с несколькими объектами недвижимости</h2>
+
+        <p>
+            SOLA позволяет добавлять несколько объектов недвижимого имущества в одно заявление. 
+            В этом случае при запуске услуги, касающейся создания или изменения недвижимости, появится окно выбора объекта недвижимости для которого 
+            будет открыта форма недвижимости. При одинарном щелчке, объект будет выбрана и открыта форма. 
+            В последствии, если вы сохраните изменения на форме недвижимости и вновь запустите услугу, будет автоматически открыт созданный/измененный 
+            объект недвижимости, без промежуточной формы выбора.
+        </p>
+
+        <img alt="" src="../images/22_select_property.png"><br>
+
+        <h2>Одобрение изменений недвижимости</h2>
+
+        <p>
+            Все изменения, которые производятся с недвижимостью, в частности изменение прав, остаются временными 
+            до того момента, как заявление, на основе которого были сделаны эти изменения, будет одобрено. 
+            Для одобрения заявления, вам необходимо завершить все услуги и одобрить заявление через выпадающий список "Действия по заявлению", 
+            выбрав пункт "Одобрить".
+        </p>
+
+        <h2>Ликвидация недвижимости</h2>
+
+        <p>
+            При разделении или объединении объектов недвижимого имущества, они должны быть ликвидированы в системе и прекращены все права, связанные с ними. 
+            Для ликвидации недвижимости, необходимо создать заявление с услугой "Прекращение права собственности" и объектом недвижимости, который должен быть 
+            ликвидирован. При запуске данной услуги на форме недвижимости будет активна кнопка "Ликвидировать". 
+            Нажмите ее, сохраните изменения и одобрите заявление для подтверждения ликвидации объекта.
+        </p>
+
+        <b>Смотрите также:</b>
+        <ul>
+            <li><a href="add_ownership_details.html" target="_top">Добавление права собственности</a></li>
+            <li><a href="add_mortgage.html" target="_top">Добавление ипотеки</a></li>
+            <li><a href="linkProperty.html" target="_top">Добавление родительского объекта недвижимого имущества</a></li>
+            <li><a href="../MainTopics/known_issues.html" target="_top">Известные проблемы</a>
+            </li>
+        </ul>
         <br>
 
     </body></html>

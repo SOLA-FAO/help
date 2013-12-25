@@ -1,147 +1,150 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
-        <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
-        <title>SOLA Map Viewer</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Просмотрщик карты</title>
+    </head><body style="margin-left: 24px;">
 
+        <h1>Просмотрщик карты</h1>
 
-    </head><body style="margin-left: 24px; width: 1040px;">
-        <h1>SOLA Map Viewer<br>
-        </h1>
+        <p>
+            Просмотрщик карты позволяет просматривать геопространственные данные имеющиеся в SOLA. 
+            Вы можете открыть его из главного меню Карта &gt;Карта или щелкнув на соответствующую кнопку в панели инструментов главного окна 
+            <img alt="" src="../images/05_world_icon.png">
+        </p>
+        <p><img alt="" src="../images/10_map_viewer.png"></p>
 
-        <p>The SOLA Map Viewer allows you to navigate and interact with the
-            geospatial data managed by SOLA. It can be accessed from the Map &gt;
-            Ctrl + Open Map menu or selecting <img style="width: 16px; height: 16px;" alt="" src="../images/05_world_icon.png"></p><br>
-        <p><img style="width: 600px; height: 400px;" alt="" src="../images/10_map_viewer.png"></p>
-
-        <p>The SOLA Map Viewer includes a toolbar for navigating and querying the map and two tabs: 
-            one Table of Contents that can be used to control the layers displayed on the map 
-            and one Find tab that can be used to find parcels in the map
-            The tools provided for the SOLA Map Viewer are:</p>
-
+        Просмотрщик карты имеет панель инструментов для навигации по карте, получения информации об объектах и две дополнительные вкладки: 
+        <ol>
+            <li>Список слоев для контроля отображения слоев карты.</li>
+            <li>Поиск объектов на карте</li>
+        </ol>
+        
+        Панель инструментов содержит следующие инструменты:
         <ul>
-
-            <li>Zoom to Extent <img style="width: 16px; height: 16px;" alt="" src="../images/11_full_extent_icon.png"></li>
-            <li>Zoom out <img style="width: 16px; height: 16px;" alt="" src="../images/12_zoom_out_icon.png"></li>
-            <li>Zoom in <img style="width: 16px; height: 16px;" alt="" src="../images/13_zoom_in_icon.png"></li>
-            <li>Pan <img style="width: 16px; height: 16px;" alt="" src="../images/14_pan_icon.png"></li>
-            <li>Information Tool <img style="width: 16px; height: 16px;" alt="" src="../images/15_information_tool_icon.png"><br>
-            </li>
-            <li>Print <img style="width: 16px; height: 16px;" alt="" src="../images/50_print_icon.jpg"></li>
-
+            <li>Масштабировать по границам карты <img alt="" src="../images/11_full_extent_icon.png"></li>
+            <li>Уменьшить <img alt="" src="../images/12_zoom_out_icon.png"></li>
+            <li>Увеличить <img alt="" src="../images/13_zoom_in_icon.png"></li>
+            <li>Переместить <img alt="" src="../images/14_pan_icon.png"></li>
+            <li>Информация <img alt="" src="../images/15_information_tool_icon.png"></li>
+            <li>Печать <img alt="" src="../images/50_print_icon.jpg"></li>
         </ul>
 
-        <p>The SOLA Map Viewer can also support additional map tools for
-            editing and related spatial tasks (e.g. Locate Application). These
-            tools are described in the relevant How To sections</p>
-
-        <h2>Map Scale and Location</h2>
-
-        <p>The scale of the map can be controlled using the Zoom in, Zoom out and Zoom to extent tools. The desired scale can also be 
-            entered directly into the Scale text box in the bottom right of the map.A scale bar is displayed to help determine distances
-            on the map. Note that due to variations in screen resolution, the scale bar is indicative only and it should not be used to 
-            obtain accurate measurements from the map. 
-            As you pass the mouse over the map you will see map coordinates displayed in the bottom left corner under the Layers and Find tabs. 
-            This information can be used to determine coordinate locations on the map.
+        <p>
+            Просмотрщик карты может содержать также дополнительные инструменты для редактирования и 
+            других пространственных функций (напр. указания расположения заявления). 
+            Эти инструменты подробно описаны в главах "Доступные операции".
         </p>
 
-        <h2>Layers</h2>
+        <h2>Масштабирование карты</h2>
 
-        <p>The Layers tab identifies the layers of geospatial data that can be displayed in the map. You can show or hide these layers by 
-            checking or clearing the checkbox next to the layer name
-            <br>
-            <img style="width: 519px; height: 329px;" alt="" src="../images/layers.jpg">
-            <br>
-            By clicking the triangle beside each layer name you can also see the symbology used to illustrate the geospatial data at different map scales.
-            For example, when the map scale is below 2,500, Place names will be illustrated with a large red square. Between 2,500 and 90,000 a medium red
-            square is used and above 90,000 a small red square. Using the map scale to control the layer symbology ensures the map does not become overly 
-            crowded with detail which might otherwise impair navigation or comprehension of the information displayed by the map.  
-            <br>
-            The default layers available for SOLA include
+        <p>
+            Масштаб карты может контролироваться при помощи инструментов увеличения, уменьшения и масштабирования по границам карты. 
+            Также можно ввести требуемый масштаб в поле "Масштаб", расположенном в нижнем правом углу карты. Там же отображается 
+            масштабная линейка для визуального отображения расстояний. Имейте ввиду, что из-за разных разрешений монитора, масштабная линейка 
+            является приблизительной и не должна использоваться для точных измерений на карте. 
+            При движении мышкой по карте, вы можете видеть координаты курсора, отображаемые в нижней части карты.
+        </p>
+
+        <h2>Слои</h2>
+
+        Вкладка "Слои" содержит список слоев с геопространственными данными, которые отображаются на карте. Вы можете включить или отключить 
+        отображение слоя на карте используя поле с флажком, расположенным перед каждым слоем.
+        <p>
+            <img style="border: solid green 1px;" alt="" src="../images/layers.png">
+        </p>
+        
+        Щелкнув на треугольнике, расположенном перед именем каждого слоя, вы можете увидеть символы и стили, которые используются для отображения 
+        объектов слоя при различных масштабах. 
+        Например, когда масштаб карты менее 2 500, название мест (Places names) будут отображены большим красным квадратом. Между 2 500 и 90 000, будет 
+        использован квадрат средней величины, и при масштабе свыше 90 000 будет использоваться маленький квадрат. 
+        <p>
+            По умолчанию в SOLA имеются следующие слои:
+        </p>
+        
         <ul>
-
-            <li>Applications	Points that indicate the approximate location of applications that have been lodged in SOLA. 
-                Application points can be created using the Map Points tab when capturing details for a new application. </li>
-            <li>Place names	Illustrates the approximate location of notable geographic features such as towns, headlands and bays. </li>
-            <li>Survey controls	Illustrates the location of survey control (i.e. geodetic) marks. </li>
-            <li>Roads	Shows the location of roads.</li> 
-            <li>Pending Parcels	New parcels that have been created by a survey subdivision or amalgamation. These parcels remain pending 
-                until the application that created them is approved. </li>
-            <li>Parcels	Illustrates the location of current parcels.</li>
-            <li>Historic Parcels with Current Titles	This layer shows parcels that have been subdivided or amalgamated into new parcels, but still have current title references. </li>
-            <li>Parcel Nodes	Illustrates the location of current parcel nodes.</li> 
-            <li>Orthophoto	Aerial photograph(s) that have been corrected for lens distortion, 
-                camera tilt and topography to ensure they have a uniform scale and are suitable for map display.</li>
-
+            <li>
+                Applications (Заявления) - точки, которые указывают примерное расположение заявлений, которые были зарегистрированы в SOLA и находятся на исполнении. 
+                Точки заявления могут быть нанесены в форме заявления на вкладке "Точки карты".
+            </li>
+            <li>Place names (Названия мест) - отображает приблизительное расположение географически значимых мест, таких как города, деревни, заливы и т.д.</li>
+            <li>Survey controls (Контрольные точки съемки) - отображает расположение контрольных точек съемки (напр. геодезические маркеры). </li>
+            <li>Roads (Дороги) - отображает расположение дорог.</li> 
+            <li>
+                Pending Parcels (Временные земучастки) - отображает новые участки, которые были созданы в результате разделение или объединения. 
+                Они будут отображаться на этом слое до тех пор, пока соответствующее заявление не будет одобрено. 
+            </li>
+            <li>Parcels (Земучастки) - отображает расположение текущих (активных) участков.</li>
+            <li>
+                Historic Parcels with Current Titles (Исторические земучастки с активными объектами недвижимости) - отображает участки, которые были 
+                разделены или объединены, но соответствующие объекты недвижимости и их права собственности все еще являются активными (не ликвидированными).
+            </li>
+            <li>Parcel Nodes (Узлы земучастков) - отображает расположение узлов (точек) участков.</li> 
+            <li>Orthophoto (Аэрофото снимки) - отображает аэрофото снимки.</li>
         </ul> 
-        Note that the layers can be reconfigured to match those required by the land administration agency
-        <br>
-        <img style="width: 519px; height: 329px;" alt="" src="../images/orthophoto.jpg">
+        
+        <p>
+            Список слоев может быть изменен и настроен в соответствии с потребностями агентства по регистрации.
+        </p>
+        <img alt="" src="../images/orthophoto.jpg">
 
-    </p>
-
-    <h2>Find</h2>
+    <h2>Поиск</h2>
+    
+    Данная функция может быть использован для быстрого поиска участков на карте. 
+    Для этого перейдите на кладку "Поиск" и выберите поле в выпадающем списке "Поиск по" по которому вы хотите найти участок. 
+    Затем начните печатать значение для поиска в текстовом поле. Во время набора значения (начиная с 3-го символа), 
+    система автоматически будет искать подходящие варианты по частичному совпадению со значением поля и отображать их в списке расположенном ниже. 
+    Для перехода к найденному участку дважды щелкните на нем и карта будет автоматически увеличена до месторасположения участка с его выделением.
 
     <p>
-        You can use the Find tab to perform spatial searches to quickly locate parcels or other geospatial features in the map. 
-        To use the Find, select the type of geospatial feature to search in the Search By drop down and start typing in the field provided.
-        Once you have entered enough characters (between 1 and 3), the search will begin listing values that match the search criteria. 
-        To view one of the results, double click the result value in the result list and the map will zoom to the location of the selected feature and highlight it.
-        <br>
-        <img style="width: 519px; height: 329px;" alt="" src="../images/find.jpg">
-
+        <img alt="" src="../images/find.png">
+    </p>
+    
     <ul>
-
-        <li>Number	Enter the appellation for a parcel (e.g. parcel/lot and/or plan number) to locate a parcel. This search will only work with parcels 
-            that have a spatial definition. Requires at least 3 characters to be entered.</li> 
-        <li>Property number	Enter the title / folio reference for a property to locate the parcel for the property. 
-            This search will only work if the property is linked to a parcel with a spatial definition. Requires at least 3 characters to be entered.</li>
-        <li>Property owner	Enter the name of a current property owner to locate a parcel for the property. This search will only work if the property is 
-            linked to a parcel with a spatial definition. Requires at least 3 characters to be entered.</li>
-
+        <li>Number (Номер) - Для поиска по номеру участка.</li> 
+        <li>Property number (Номер недвижимости) - Для поиска по номеру (коду) недвижимости. Через объект недвижимости будет найден соответствующий участок.</li>
+        <li>Property owner (Владелец) - Для поиска по имени владельца недвижимости. Через объект недвижимости будет найден соответствующий участок.</li>
     </ul>
-    Note that the spatial searches can be reconfigured to match those required by the land administration agency.
-</p> 
+    
+    Пространственный поиск может быть изменен в соответствии с нуждами регистрационного агентства.
 
-<h2>Information Tool</h2>
+<h2>Инструмент "Информация"</h2>
 
-<p>The Information Tool can be used to query geospatial features such as
-    parcels, survey control, place names, roads, villages, etc. As geospatial features are often
-    in close proximity or overlap, the Information Tool displays details
-    for all features immediately surrounding the selected location.
-    Click the appropriate tab to see details for the various layer features.
-    Note that the tabs and the details displayed by the Information Tool can be reconfigured to match those required by the land administration agency
-</p><br>
+<p>
+    Инструмент "Информация" используется для получения данных о пространственных объектах, расположенных на карте, 
+    такие как участки, контрольные точки съемки, дороги, населенные пункты и т.д. 
+    По причине того, что пространственные объекты могут находиться близко друг к другу и даже пересекаться, данный инструмент 
+    отображает данные всех объектов в непосредственной близости от места щелчка. 
+    В появившемся всплывающем окне вы можете видеть несколько вкладок, каждая из которых соответствует типу объекта, попавшего в зону щелчка. 
+</p>
 
-<img style="width: 519px; height: 329px;" alt="" src="../images/16_information_tool.png">
+<img alt="" src="../images/16_information_tool.png">
 
-<h2>Print out Tool</h2>
+<h2>Инструмент "Печать"</h2>
 
-<p>The Print Out Tool can be used to print out the visualised map in a pdf file format.
-    You can turn layers on/off if you want or don't want some of them to be in printout.
-    Then you can choose a layout: A3, A4, A5 but there can be defined as many as needed.
-    In the same dialog you can choose a scale. An estimated scale is already calculated from the map.<br>
-    Click the Print button to generate a document containing the image of the map. Using the Report Viewer, 
-    you can save the print in several formats including PDF, DOCX and HTML or print a hard copy For PDF format a PDF Viewer must be installed in the system.
-    <br>
-    Notice that everywhere in the software there is a map there is a Print button as well and that when printing – additionally - a service of type cadastrePrint 
-    is registered in the service table and also marked as completed (if the map window is started by an application, this service is attached to the application, 
-    completed Map Print service ) 
-    Note that the print templates (i.e. A3, A4 and A5) can be can be reconfigured to match those required by the land administration agency.
-</p><br>
+<p>
+    Инструмент "Печать" используется для распечатки отображаемой карты. Перед печатью, спозиционируйте карту, включите слои, установите нужный масштаб 
+    и нажмите кнопку "Печать". В появившемся окне вы можете выбрать размер бумаги и установить точный масштаб. 
+</p>
+<p>
+    <img alt="" src="../images/map_print_setup.png">
+</p>
+<p>
+    При нажатии кнопки "Печать" в диалоговом окне, будет сгенерирована карта для печати, которую вы можете распечатать или сохранить во 
+    внешний формат, такой как PDF, DOCX и HTML.
+</p>
 
-<img style="width: 519px; height: 329px;" alt="" src="../images/map_print.jpg">
+<p>
+<img alt="" src="../images/map_print.png">
+</p>
 
-
-<p><b>Also see</b></p>
+<b>Смотрите также:</b>
 <ul>
-    <li><a href="edit_an_application.html" target="_top">Edit an application</a><br>
+    <li><a href="edit_an_application.html" target="_top">Редактирование заявления</a><br>
     </li>
-    <li><a href="add_location.html" target="_top">Add a location for an application</a></li>
-    <li><a href="../MainTopics/known_issues.html" target="_top">Known Issues</a><br>
+    <li><a href="add_location.html" target="_top">Добавление расположения для заявления</a></li>
+    <li><a href="../MainTopics/known_issues.html" target="_top">Известные проблемы</a><br>
     </li>
 </ul>
-
-<br>
 
 </body></html>

@@ -31,71 +31,68 @@
 <html><head>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bulk Load Scanned Documents</title>
+        <title>Массовая загрузка отсканированных документов</title>
 
 
-    </head><body style="margin-left: 24px; width: 1040px;">
-        <h1>Bulk Load Scanned Documents</h1>
+    </head><body style="margin-left: 24px;">
+        <h1>Массовая загрузка отсканированных документов</h1>
 
-        <p> This functions allows the loading of existing scanned documents 
-            (for instance sporadic registration documents) into the SOLA digital archive 
-            and hence provide easy access to these documents by the systematic registration team.
+        <p> 
+            Эта функция позволяет загружать существующие отсканированные документы
+             (например явочные регистрационные документы) в цифровой архив SOLA
+             и как следствие предоставлять легкий доступ к этим документам командам системной регистрации.
         </p>
 
-        <h2>Load Scanned Document Collections</h2>
-        This step should ideally occur at the start-up stage of systematic registration. 
-        Scanned document images will need to be loaded onto the workstation to do the uploading
-        or a network folder accessible by the SOLA user. Each collection should be in a folder that 
-        corresponds to a document type (source.administrative_source_type table in SOLA database)
-
+        <h2>Загрузка набора отсканированных документов</h2>
+        Этот шаг в идеале происходит на стадии начала системной регистрации.
+         Отсканированные документы должны быть скопированы на рабочую станцию​​ для последующей загрузки
+         или создана сетевая папка доступная пользователю SOLA. Каждый набор должен быть в папке,
+         с именем типа документа из таблицы source.administrative_source_type
         <p>
-            <img style="width: 600px; height: 362px;" alt="" src="../images/loadingSource.png"><br>
+            <img alt="" src="../images/loadingSource.png"><br>
         </p>
 
-        <h3>Steps</h3>
-        <br>In this part of the screen, the destination type is defined. At the moment, there are two:
+        <h3>Шаги</h3>
+        На этом экране, определяется тип назначения. На данный момент имеются два типа:
         <ol>
-            <li>Run the SOLA Bulk Operations software</li>
-            <li>From the Dashboard select the Load Scanned Documents tool to open the Load Scanned Documents 
-                screen
+            <li>Запустите SOLA Массовые Операции</li>
+            <li>
+                На панели инструментов выберите инструмент загрузки отсканированных документов.
             </li>    
-            <li>Identify the folder in which there are a series of subfolders containing a particular collection for 
-                a document type (eg a subfolder named “mortgage” for scanned images of mortgages. Another sub-folder
-                named “lease” etc ). You should select the head folder containing the sub-folders and Files of Type
-                drop-down should remain expression as Directories Only
+            <li>
+                Выберите папку, в которой есть вложенные папки, содержащие определенный набор
+                документов одного типа (например вложенная папка "ипотека" для отсканированных документов ипотеки. 
+                Другая вложенная папка с названием "аренда" и т.д.). 
+                Вы должны выбрать главную папку, содержащую вложенные папки в то время как выпадающий список "Тип Файла"
+                должен иметь значение "Только папки".
             </li>
-            <li>Click on Load and message Information Source are loaded with success. The files of type drop down 
-                should retain the Directories Only  as the value for the Files of Type. Sub-folder name must 
-                coincide with a document type as recorded in the source.administrative_source_type table in the 
-                SOLA database. Scanned image files must be .pdf, .tif, .tiff or jpg. If any of these conditions 
-                are not met a message will be displayed and you will be directed to the Validation Screen 
-                (by clicking on the Validation button) for details on the where those conditions are not met
-                <br>
-                <img style="width: 600px; height: 362px;" alt="" src="../images/validationSource.png">
+            <li>
+                 Нажмите кнопку "Загрузить". Имя вложенной папки должно совпадать 
+                 с именем типа документа из таблицы source.administrative_source_type. 
+                 Отсканированные файлы документов могут быть PDF, TIF, TIFF или JPG. Если одно из этих условий
+                 не выполняются будет отображено сообщение и осуществлено перенаправление на экран валидации 
+                 для получения более подробных сведений об ошибках.
             </li>
-            <li>Other object
-                This is selected if you want to upload other kinds of objects like road, control points, villages, etc.
-                Further, input the type of the object and which field in the source will be used for the label.
+            <li>
+                Загрузка пространственных объектов<br>
+                Эта функция используется если вы хотите загрузить пространственный объекты, такие как дороги, поворотные точки, населенные пункты и тд.
+                Далее выберите тип объекта и какое поле будет использоваться для подписи.
             </li>
         </ol>
-        <br>
 
         <p>
-
         </p>
 
-
-
-        <p><b>Also See</b></p>
+        <p><b>Смотрите также</b></p>
         <ul>
-            <li><a href="1_blk_importspatialpanel.html" target="_top">Upload newly surveyed/defined parcels for a block</a></li>
-            <li><a href="sys_reg_rights_claim.html" target="_top">Systematic Registration Rights Claim</a></li>
-            <li><a href="sys_reg_record_objections.html" target="_top">Systematic Registration Record Objections</a></li>
-            <li><a href="sys_reg_record_resolutions.html" target="_top">Systematic Registration Record Dispute Resolution</a></li>
-            <li><a href="sys_reg_public_disp_listing.html" target="_top">Prepare Public Display Listings</a></li>
-            <li><a href="sys_reg_public_disp_plots.html" target="_top">Prepare Public Display Plots</a></li>
-            <li><a href="sys_reg_certificates.html" target="_top">Prepare Registration Certificates</a></li>
-            <li><a href="sys_reg_status_report.html" target="_top">Prepare Status & Work Reports</a></li>
+            <li><a href="1_blk_importspatialpanel.html" target="_top">Массовая загрузка пространственных объектов</a></li>
+            <li><a href="sys_reg_rights_claim.html" target="_top">Запрос на системную регистрацию</a></li>
+            <li><a href="sys_reg_record_objections.html" target="_top">Обжалование записи системной регистрации</a></li>
+            <li><a href="sys_reg_record_resolutions.html" target="_top">Разрешение спора по записям системной регистрации</a></li>
+            <li><a href="sys_reg_public_disp_listing.html" target="_top">Подготовка списков публичного показа</a></li>
+            <li><a href="sys_reg_public_disp_plots.html" target="_top">Подготовка участков для публичного показа</a></li>
+            <li><a href="sys_reg_certificates.html" target="_top">Подготовка сертификатов регистрации</a></li>
+            <li><a href="sys_reg_status_report.html" target="_top">Подготовка отчетов о статусе и проделанной работе</a></li>
         </ul>
 
         <br>

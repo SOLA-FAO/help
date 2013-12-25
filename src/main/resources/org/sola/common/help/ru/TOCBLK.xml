@@ -1,26 +1,27 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version='1.0' encoding='ISO-8859-1' ?> -->
 <!DOCTYPE toc
   PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
          "http://java.sun.com/products/javahelp/toc_1_0.dtd">
 
 <toc version="1.0">
-    <tocitem image="toplevelfolder" text="SOLA Bulk Operation Help">
-        <tocitem image="topic" target="1_blk_overview" text="Overview"/>
-        <tocitem image="topic" target="license" text="Licensing"/>
-        <tocitem image="category" text="SOLA Screens">
-            <tocitem image="topic" target="1_blk_importspatialpanel" text="Load Spatial Object"/>
-            <tocitem image="topic" target="1_blk_importsourcepanel" text="Load Scanned Documents"/>
+    <tocitem image="toplevelfolder" text="Справка по SOLA Bulk Operation">
+        <tocitem image="topic" target="1_blk_overview" text="Обзор"/>
+        <tocitem image="topic" target="license" text="Лицензирование"/>
+        <tocitem image="category" text="Экраны SOLA">
+            <tocitem image="topic" target="1_blk_importspatialpanel" text="Массовая загрузка пространственных объектов"/>
+            <tocitem image="topic" target="1_blk_importsourcepanel" text="Массовая загрузка отсканированных документов"/>
         </tocitem>
-        <tocitem image="category" text="How to">
-            <tocitem image="topic" target="sys_reg_rights_claim" text="Systematic Registration Rights Claim"/>
-            <tocitem image="topic" target="sys_reg_record_objections" text="Systematic Registration Record Objections"/>
-            <tocitem image="topic" target="sys_reg_record_resolutions" text="Systematic Registration Record Dispute Resolution"/>
-            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Prepare Public Display Listings"/>
-            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Prepare Public Display Plots"/>
-            <tocitem image="topic" target="sys_reg_certificates" text="Prepare Registration Certificates"/>
-            <tocitem image="topic" target="sys_reg_status_report" text="Prepare Status Work Reports"/>
+        <tocitem image="category" text="Доступные операции">
+            <tocitem image="topic" target="sys_reg_rights_claim" text="Запрос на системную регистрацию"/>
+            <tocitem image="topic" target="sys_reg_record_objections" text="Обжалование записи системной регистрации"/>
+            <tocitem image="topic" target="sys_reg_record_resolutions" text="Разрешение спора по записям системной регистрации"/>
+            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Подготовка списков публичного показа"/>
+            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Подготовка участков для публичного показа"/>
+            <tocitem image="topic" target="sys_reg_certificates" text="Подготовка сертификатов регистрации"/>
+            <tocitem image="topic" target="sys_reg_status_report" text="Подготовка отчетов о статусе и проделанной работе"/>
         </tocitem>
-        <tocitem image="topic" target="issues" text="Known Issues"/>
+        <tocitem image="topic" target="issues" text="Известные проблемы"/>
     </tocitem>
 </toc>
 

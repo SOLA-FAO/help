@@ -31,71 +31,71 @@
 <html><head>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bulk Load Spatial Objects</title>
+        <title>Массовая загрузка пространственных объектов</title>
 
 
-    </head><body style="margin-left: 24px; width: 1040px;">
-        <h1>Bulk Load Spatial Objects</h1>
+    </head><body style="margin-left: 24px;">
+        <h1>Массовая загрузка пространственных объектов</h1>
 
-        <p>The interface is split in three parts. 
+        Интерфейс разделен на 3 части. 
         <ol>
-            <li>Source</li>   
-            <li>Destination</li>   
-            <li>Loading process</li>
+            <li>Источник</li>   
+            <li>Назначение</li>   
+            <li>Процесс загрузки</li>
         </ol>
-    </p><br>
 
-    <p>
+    <h2>Источник</h2>
+     В этой части экрана определяется источник пространственных данных. На данный момент имеется только Shapefile.
+     Вы можете выбрать Shapefile (.SHP), нажав в кнопку Обзор.
+     В этот момент шейпфайл будет считан и в верхней части отображены: ​​Поля шейпфайла, тип геометрии, количество объектов в файле.
 
-    <h2>Source</h2>
-    <br>In this part of the screen, the spatial data source is defined. At the moment, in the list is only Shapefile. 
-    You can choose a Shapefile (.shp) by clicking in Browse button.
-    In that moment, the shapefile is read and in the upper part are given: Fields of the shapefile, the type of the geometry, the number of features found.
-
-    <h2>Destination</h2>
-    <br>In this part of the screen, the destination type is defined. At the moment, there are two:
+     <h2>Назначение</h2>
+    В этой части экрана определяется тип назначение. На данный момент их два:
     <ul>
-        <li>Cadastre object.
-            <br>This is selected if the user wants to upload cadastre objects like parcels, building, etc. The type of potential cadastre objects is read from the table cadastre.cadastre_object_type.
-            Further, for this kind of destination, you must:
+        <li>Кадастровый объект.
+            <br>
+            Этот тип выбирается, если требуется загрузить кадастровые объекты, такие как участки, здания и т.д. тип допустимых кадастровых объектов считывается из таблицы cadastre.cadastre_object_type.
+             Кроме того, для этого вида назначения, вы должны:
             <ol>
-                <li>type the last part, </li>
-                <li>for the first part must give which field in the source will be used to get the first part or if the first part will be generated</li>
-                <li>for the official area must give the field in the source as well.</li>
+                <li>ввести последнюю часть кода объекта,</li>
+                <li>для определения первой части кода объекта вы должны выбрать поле в источнике которое будет использован для получения данных, в противном первая часть будет сгенерирована</li>
+                <li>для официальной площади вы должны также выбрать поле из источника.</li>
             </ol>
         </li>
-        <li>Other object
-            This is selected if you want to upload other kinds of objects like road, control points, villages, etc.
-            Further, input the type of the object and which field in the source will be used for the label.
+        <li>Другие объекты<br>
+            Этот тип выбирается, если требуется загрузить другие типы объектов, такие как дороги, контрольные точки, населенные пункты и т.д.
+            Далее выберите тип объекта и поле из источника, которое будет использоваться для подписи.
         </li>
     </ul>
-    <h2>Loading process</h2>
-    <br>By clicking the button <b>Load</b>, first is validated if the source and destination is filled properly and then the features of the source are converted in objects and then they are sent to the server for processing and storage. 
-    <br>During this time, a progress bar appears at the taskbar.
-    <br>At the end, a message will appear if the upload is finished.
-    <br>Cadastre change can be called only for features that are not loaded successfully. 
-    <br>By clicking the button <b>Rollback</b> it is possible to rollback the whole loading.
-    <br>By clicking the button <b>Open Map</b> for all kinds of objects, the map control can be called and zoomed where the features are added.
-
-</p>
+    <h2>Процесс загрузки</h2>
+    <br>По нажатию кнопки <b>Загрузить</b>, будет проверен источник и назначение на правильность заполнения, 
+    затем объекты источника будут сконвертированы в объекты назначения и отосланы на сервер для дальнейшей обработки и сохранения.
+    <br>В это время будет отображаться прогресс выполнения в панеле состояния.
+    <br>По окончанию будет отображено сообщение.
+    <br>Кадастровое изменение может быть вызвано только для объектов которые не были успешно загружены. 
+    <br>Нажав кнопку <b>Откат</b> вы можете отменить всю загрузку.
+    <br>Нажав кнопку <b>Открыть карту</b> для всех типов объектов, будет отображена карта и увеличена до области куда были добавлены объекты.
 
 <p>
 
 </p>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/loadingSpatial.png"><br>
+<img style="width: 670px; height: 362px;" alt="" src="../images/loadingSpatial.png"><br>
 
+<p>
 
-<p><b>Also See</b></p>
+</p>
+
+<b>Смотрите также:</b>
 <ul>   
-    <li><a href="1_blk_importsourcepanel.html" target="_top">Bulk Load Scanned Documents</a></li>
-    <li><a href="sys_reg_rights_claim.html" target="_top">Systematic Registration Rights Claim</a></li>
-    <li><a href="sys_reg_record_objections.html" target="_top">Systematic Registration Record Objections</a></li>
-    <li><a href="sys_reg_record_resolutions.html" target="_top">Systematic Registration Record Dispute Resolution</a></li>
-    <li><a href="sys_reg_public_disp_listing.html" target="_top">Prepare Public Display Listings</a></li>
-    <li><a href="sys_reg_public_disp_plots.html" target="_top">Prepare Public Display Plots</a></li>
-    <li><a href="sys_reg_certificates.html" target="_top">Prepare Registration Certificates</a></li>
-    <li><a href="sys_reg_status_report.html" target="_top">Prepare Status & Work Reports</a></li>
+    <li><a href="1_blk_importsourcepanel.html" target="_top">Массовая загрузка отсканированных документов</a></li>
+    <li><a href="sys_reg_rights_claim.html" target="_top">Запрос на системную регистрацию</a></li>
+    <li><a href="sys_reg_record_objections.html" target="_top">Обжалование записи системной регистрации</a></li>
+    <li><a href="sys_reg_record_resolutions.html" target="_top">Разрешение спора по записям системной регистрации</a></li>
+    <li><a href="sys_reg_public_disp_listing.html" target="_top">Подготовка списков публичного показа</a></li>
+    <li><a href="sys_reg_public_disp_plots.html" target="_top">Подготовка участков для публичного показа</a></li>
+    <li><a href="sys_reg_certificates.html" target="_top">Подготовка сертификатов регистрации</a></li>
+    <li><a href="sys_reg_status_report.html" target="_top">Подготовка отчетов о статусе и проделанной работе</a></li>
 </ul>
 <br>
 <br>

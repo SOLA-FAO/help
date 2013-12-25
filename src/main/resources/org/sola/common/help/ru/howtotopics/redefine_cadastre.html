@@ -31,66 +31,70 @@
 <html><head>
   
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Redefine Cadastre</title>
+  <title>Изменение кадастрового объекта</title>
 
   
-</head><body style="margin-left: 24px; width: 1040px;">
-<h1>Redefine Cadastre</h1>
+</head><body style="margin-left: 24px;">
+<h1>Изменение кадастрового объекта</h1>
 
-<p>The Redefine Cadastre screen allows you to change the boundaries of an existing cadastre object both entirely and point by point (adding nodes and changing nodes coordinates). 
-    It can be accessed by starting a Redefine Cadastre service from the Application Details Service tab 
-</p><br>
+<p>
+    Форма изменения кадастрового объекта позволяет изменять границы существующих кадастровых объектов, 
+    включая изменение по узлам (добавляя узлы и изменение координат узлов) и полностью выбранную часть границы. 
+    Для открытия этой формы, запустите услугу "Изменение кадастрового объекта" из соответствующего заявления.
+</p>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/redefine_cadastre.png"><br>
+<img alt="" src="../images/redefine_cadastre.png"><br>
 
-<p>Also this screen extends the SOLA Map Viewer with additional tools to aid spatial editing of parcels.  
-    The additional tools provided are:</p>
+<p>
+    Данная форма расширяет компонент просмотра карты следующими дополнительными инструментами:
+</p>
 
 <ul>
-
-  <li>Add node <img style="width: 16px; height: 16px;" alt="" src="../images/60_add_node.png"></li>
-  <li>Select node to modify<img style="width: 16px; height: 16px;" alt="" src="../images/61_select_node.png"></li>
-  <li>Reset changes <img style="width: 16px; height: 16px;" alt="" src="../images/62_reset_changes.png"></li>
-  <li>Select a boundary to change <img style="width: 16px; height: 16px;" alt="" src="../images/56_select_boundary_icon.png"></li>
-  <li>Change selected boundary <img style="width: 16px; height: 16px;" alt="" src="../images/57_modify_boundary_icon.png"></li>
-  <li>Add  image <img style="width: 16px; height: 16px;" alt="" src="../images/58_add_image_icon.png"></li>
-  <li>Remove added image <img style="width: 16px; height: 16px;" alt="" src="../images/59_remove_image_icon.png"><br>
+  <li>Добавить узел <img alt="" src="../images/60_add_node.png"></li>
+  <li>Выбор узла для изменения<img alt="" src="../images/61_select_node.png"></li>
+  <li>Перезапуск кадастрового переопределения <img alt="" src="../images/62_reset_changes.png"></li>
+  <li>Выбор границы для изменения <img alt="" src="../images/56_select_boundary_icon.png"></li>
+  <li>Изменить выбранную границу <img alt="" src="../images/57_modify_boundary_icon.png"></li>
+  <li>Добавить изображение <img alt="" src="../images/58_add_image_icon.png"></li>
+  <li>Удалить добавленное изображение <img alt="" src="../images/59_remove_image_icon.png"><br>
   </li>
 </ul>
 
-<h2>Nodes</h2>
+<h2>Узлы</h2>
 
-<p>Nodes represent crucial elements in the boundary. New nodes can be added using the Add 
-    new node tool and existing ones can be selected using the Select a Node to Change tool
-</p> <br>
+<p>
+    Узлы представляют собой критический элемент границы. Новые узлы могут быть добавлены при помощи инструмента 
+    "Добавить узел". Существующие узлы могут быть выделены и изменены при помощи инструмента выбора узла для изменения его координат.
+</p>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/redefine.png"><br>
+<img alt="" src="../images/redefine.png"><br>
 
-<p>The coordinates of new or existing node can be then manually changed entering them directly into the opened dialog box and clicking modify.
-To remove the node click Remove
-</p> <br>
+<p>
+    В появившемся диалоговом окне можно вручную ввести новые координаты узла и применить изменения путем нажатия кнопки "Modify" (изменить). 
+    Удалить выбранный узел можно нажав кнопку "Remove" (удалить).
+</p> 
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/coordinates.png"><br>
 
-<p>The new boundary will appear in light green while the old one will be in dark green thus pointing out the differences between the two.
-</p> <br>
+<p>
+    Измененная граница будет отображена зеленым цветом, в то время как старая отображается красным для наглядной разницы между ними.
+</p>
 
-<img style="width: 600px; height: 362px;" alt="" src="../images/redefined_node.png"><br>
+<img alt="" src="../images/redefined_node.png"><br>
     
     
-<p>Once modified the coordinates or removed the node, the cadastre definition process can be reset using the Reset tool .
-When the redefinition is complete, Save the cadastre redefinition.
-To complete the cadastre redefinition, complete the Redefine Cadastre service using the Complete tool on the Application Details Services tab and then approve the application. This will cause the new boundary to become current and the old to become historic.
-</p><br>
+<p>
+    Все изменения могут быть отменены при помощи инструмента "Перезапуск кадастрового переопределения". 
+    После того, как все изменения закончены, сохраните их и нажмите кнопку "Завершить" для услуги "Изменение кадастрового объекта" на форме заявления. 
+    Одобрите заявление для вступления изменений в силу. После этого новая граница станет текущей, а старая получить статус истории.
+</p>
   
-  <p><b>Also See</b></p>
+<b>Смотрите также:</b>
 <ul>
-  <li><a href="map_viewer.html" target="_top">SOLA Map Viewer</a></li>
-  <li><a href="perform_redefine_cadastre.html" target="_top">Perform a Redefinition of Cadastre</a></li>
-  <li><a href="change_boundary.html" target="_top">Change Boundary</a></li>
-  <li><a href="../MainTopics/known_issues.html" target="_top">Known Issues</a>
+  <li><a href="map_viewer.html" target="_top">Просмотрщик карты</a></li>
+  <li><a href="perform_redefine_cadastre.html" target="_top">Выполнение изменения кадастрового объекта</a></li>
+  <li><a href="change_boundary.html" target="_top">Изменение границ</a></li>
+  <li><a href="../MainTopics/known_issues.html" target="_top">Известные проблемы</a>
   </li>
 </ul>
 <br>
-  <br>
 </body></html>
