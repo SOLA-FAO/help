@@ -31,51 +31,50 @@
 <html DIR="RTL"><head>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bulk Load Spatial Objects</title>
+        <title>تحميل حزمة الكائنات المكانية</title>
 
 
     </head><body style="margin-left: 24px; width: 1040px;">
-        <h1>Bulk Load Spatial Objects</h1>
+        <h1>تحميل حزمة الكائنات المكانية</h1>
 
-        <p>The interface is split in three parts. 
+        <p>تم تقسيم الوجهة الى ثلاثة اقسام 
         <ol>
-            <li>Source</li>   
-            <li>Destination</li>   
-            <li>Loading process</li>
+            <li>المصدر</li>   
+            <li>الوجهة</li>   
+            <li>اجراء التحميل</li>
         </ol>
     </p><br>
 
     <p>
 
-    <h2>Source</h2>
-    <br>In this part of the screen, the spatial data source is defined. At the moment, in the list is only Shapefile. 
-    You can choose a Shapefile (.shp) by clicking in Browse button.
-    In that moment, the shapefile is read and in the upper part are given: Fields of the shapefile, the type of the geometry, the number of features found.
+    <h2>المصدر</h2>
+    <br>في هذا الجزء من الشاشة ., مصدر البيانات المكانية يتم تحديده.  حتى الان, امصدر يدعم فقط الملفات من نوع Shapefile
+يمكن اختيار الملفات بالضغط  على زر "استعراض" . سوف يتم قراءة الملف بعد اختياره وسوف يتم تحميل الحقول التالية :
+نوع الجيومتري, عدد الخصائص  التي تم العثور عليها بالصافة الى جميع حقول الملف
 
-    <h2>Destination</h2>
-    <br>In this part of the screen, the destination type is defined. At the moment, there are two:
+
+    <h2>الوجهة</h2>
+    <br>في هذا القسم من الشاشة يتم تعريف الوجهة. حتى الان هناك :
     <ul>
-        <li>Cadastre object.
-            <br>This is selected if the user wants to upload cadastre objects like parcels, building, etc. The type of potential cadastre objects is read from the table cadastre.cadastre_object_type.
-            Further, for this kind of destination, you must:
+        <li>كائن مكاني
+            <br>ستم اختياره اذا اراد المستخدم تحميل كائنات مكانية مثل القطع, البنايات ,الخ. يتم قراءة انواع الكائنات المكانية من جدول  cadastre.cadastre_object_type.
+            هذا النوع يتطلب :
             <ol>
-                <li>type the last part, </li>
-                <li>for the first part must give which field in the source will be used to get the first part or if the first part will be generated</li>
-                <li>for the official area must give the field in the source as well.</li>
+                <li>طباعة الجزء الاخير , </li>
+                <li>او تعيين الحقل الذي سيتم منه قراءة الجزء الاول او اذا كان الجزء الاول سيتم انشاؤه اوتوماتيكيا</li>
+                <li>للمساحة الرسمية يجب تحديد الحقل في المصدر .</li>
             </ol>
         </li>
-        <li>Other object
-            This is selected if you want to upload other kinds of objects like road, control points, villages, etc.
-            Further, input the type of the object and which field in the source will be used for the label.
+        <li>كائن اخر يتم اختياره اذا اردت تحميل كائنات اخري مثل الطرق, نقاط تحكم , قري ,الخ. اختر نوع الكائن واختر الحقل من المصدر لاستخدامه لتسمية الكائن
         </li>
     </ul>
-    <h2>Loading process</h2>
-    <br>By clicking the button <b>Load</b>, first is validated if the source and destination is filled properly and then the features of the source are converted in objects and then they are sent to the server for processing and storage. 
-    <br>During this time, a progress bar appears at the taskbar.
-    <br>At the end, a message will appear if the upload is finished.
-    <br>Cadastre change can be called only for features that are not loaded successfully. 
-    <br>By clicking the button <b>Rollback</b> it is possible to rollback the whole loading.
-    <br>By clicking the button <b>Open Map</b> for all kinds of objects, the map control can be called and zoomed where the features are added.
+    <h2>اجراء التحميل</h2>
+    <br>عند الضغط على زر "تحميل" يتم اولا التحقق من صحة بيانات المصدر ووالوجهة وهل تم تحويل المعالم من المصدر الى الكائنات المطلوبة ومن ثم يتم ارسال البيانات الى الخادم لتخزينها
+    <br>خلال هذا الوقت سوف يظهر بار للدلالة علة التقدم في عملية المعالجة 
+    <br>في النهاية سوف تظهر رسالة للدلالة علة انتهاء العملية
+    <br>خدمة تغيير المساحة يمكن استخدامها فقط للكائنات التي فشلت عملية تحميلها 
+    <br>بالضغط على زر "تراجع" بالامكان التراجع عن عملية  التحميل
+    <br>بالضغط على زر "فتح الخارطة"  لجميع انواع الكائنات يمكن استخدام الخارطة لمشهدة جميع المعالم التي تمت اضافتها
 
 </p>
 
@@ -86,16 +85,16 @@
 <img style="width: 600px; height: 362px;" alt="" src="../images/loadingSpatial.png"><br>
 
 
-<p><b>Also See</b></p>
+<p><b>انظر ايضا</b></p>
 <ul>   
-    <li><a href="1_blk_importsourcepanel.html" target="_top">Bulk Load Scanned Documents</a></li>
-    <li><a href="sys_reg_rights_claim.html" target="_top">Systematic Registration Rights Claim</a></li>
-    <li><a href="sys_reg_record_objections.html" target="_top">Systematic Registration Record Objections</a></li>
-    <li><a href="sys_reg_record_resolutions.html" target="_top">Systematic Registration Record Dispute Resolution</a></li>
-    <li><a href="sys_reg_public_disp_listing.html" target="_top">Prepare Public Display Listings</a></li>
-    <li><a href="sys_reg_public_disp_plots.html" target="_top">Prepare Public Display Plots</a></li>
-    <li><a href="sys_reg_certificates.html" target="_top">Prepare Registration Certificates</a></li>
-    <li><a href="sys_reg_status_report.html" target="_top">Prepare Status & Work Reports</a></li>
+    <li><a href="1_blk_importsourcepanel.html" target="_top">تحميل حزمة وثائق ممسوحة </a></li>
+    <li><a href="sys_reg_rights_claim.html" target="_top">التسجيل المنتظم المطالبة بالحقوق </a></li>
+    <li><a href="sys_reg_record_objections.html" target="_top">التسجيل المنتظم تسجيل الاعتراضات</a></li>
+    <li><a href="sys_reg_record_resolutions.html" target="_top">التسجيل المنتظم تسجيل حلول النزاعات</a></li>
+    <li><a href="sys_reg_public_disp_listing.html" target="_top">تحضير قوائم العرض العامة</a></li>
+    <li><a href="sys_reg_public_disp_plots.html" target="_top">تحضير مخططات  العرض العام </a></li>
+    <li><a href="sys_reg_certificates.html" target="_top">تحضير شهادات التسجيل</a></li>
+    <li><a href="sys_reg_status_report.html" target="_top">تحضير تقارير حالات العمل</a></li>
 </ul>
 <br>
 <br>
