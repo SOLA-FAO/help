@@ -1,0 +1,124 @@
+<!--
+ ******************************************************************************************
+ Copyright (C) 2011 - Bits&Bytes(R) Software Solutions Limited
+ All rights reserved
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are not permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,this list
+      of conditions and the following disclaimer.
+    2. Redistributions in binary form must reproduce the above copyright notice,this list
+      of conditions and the following disclaimer in the documentation and/or other
+      materials provided with the distribution.
+    3. Neither the name of Bits&Bytes Software Solutions Limited nor the names of its 
+       contributors may be used to endorse or promote products derived from this software
+       without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT
+ OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,STRICT LIABILITY,OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *********************************************************************************************
+ 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Redéfinir le Cadastre</title>
+
+  
+</head><body style="margin-left: 24px; width: 1040px;">
+<h1>Redéfinir le Cadastre</h1>
+
+<p>L'écran de redéfinition du cadastre permet de modifier les limites d'objets cadastraux existants soit entièrement soit point par point (en ajoutant des noeuds et en changeant les coordinées des noeuds). 
+    Le service de Redéfinition du Cadastre est accèssible depsui l'onglet de service des Détails de la Demande. 
+</p><br>
+
+<img style="width: 600px; height: 362px;" alt="" src="../images/redefine_cadastre.png"><br>
+
+<p>L'écran de redéfinition du cadastre prolonge l'écran du Plan Cadastral avec des outils supplémentaires facilitant l'édition spatiale des parcelles. 
+    Les outils supplémentaires sont:</p>
+
+<ul>
+
+  <li>Ajouter un noeud <img style="width: 16px; height: 16px;" alt="" src="../images/60_add_node.png"></li>
+  <li>Modifier un noeud<img style="width: 16px; height: 16px;" alt="" src="../images/61_select_node.png"></li>
+  <li>Remise à zéro (Reset) des modifications <img style="width: 16px; height: 16px;" alt="" src="../images/62_reset_changes.png"></li>
+  <li>Sélectionner une limite à modifier <img style="width: 16px; height: 16px;" alt="" src="../images/56_select_boundary_icon.png"></li>
+  <li>Modifier la limite sélectionnée <img style="width: 16px; height: 16px;" alt="" src="../images/57_modify_boundary_icon.png"></li>
+  <li>Ajouter une image <img style="width: 16px; height: 16px;" alt="" src="../images/58_add_image_icon.png"></li>
+  <li>Supprimer l'image ajoutée <img style="width: 16px; height: 16px;" alt="" src="../images/59_remove_image_icon.png"><br>
+  </li>
+</ul>
+
+<h2>Noeuds</h2>
+
+<p>Les noeuds représentes les points fixes des limites de la parcelle. Les nouveaux noeuds peuvent être ajoutés en utilisant l'outil Ajouter un Noeud <img style="width: 16px; height: 16px;" alt="" src="../images/60_add_node.png">
+    et les noeuds existants peuvent être relocalisés en utilisant l'outil Modifier le Noeud <img style="width: 16px; height: 16px;" alt="" src="../images/61_select_node.png">
+   <br>
+   Pour ajouter une nouveau noeud, utiliser l'outil Ajouter un Noeud <img style="width: 16px; height: 16px;" alt="" src="../images/60_add_node.png">
+   pour déplacer une petite boîte de sélection autour de la localisation approximative du nouveau noeud. 
+   Noter que la boîte de sélection doit être au-dessus d'une limite existante. Si la boîte de sélection n'est pas au-dessus d'une mimite existante, 
+   l'outil ne fonctionnera pas. 
+</p> <br>
+
+<img style="width: 600px; height: 362px;" alt="" src="../images/approximatelocation.png"><br>
+
+<p>Une boîte de dialogue s'ouvre permettant d'entrer les coordonnées du nouveau noeud. Entrer les coordonnées appropriées et cliquer le bouton Modifier. 
+   Si une erreur est faite, cliquer sur Supprimer ou fermer la boîte de dialogue; ceci annulera l'ajout du noeud.
+</p> <br>
+
+<img style="width: 600px; height: 362px;" alt="" src="../images/coordinates.png"><br>
+
+<p>La limite des deux parcelles adjacentes est modifiée selon le nouveau point qui est inclu dans la limite. 
+    La limite de la nouvelle parcelle apparait en vert claire alors que la limite d'origine reste en vert foncé afin de pouvoir
+    différencier les deux limites. Noter que comme la Modification du Cadastre, les changements effectués au réseau du cadastre reste en attente
+    jusqu'à ce que la demande contenant le service Redéfinition du Cadastre soit approuvé. 
+   <br>
+   L'outil Modification de Noeud <img style="width: 16px; height: 16px;" alt="" src="../images/61_select_node.png"> fonctionne de la même manière que l'outil d'Ajout de Noeud <img style="width: 16px; height: 16px;" alt="" src="../images/60_add_node.png">   
+   Plutôt que de sélectionner une limite, déplacer la boîte de sélection autour d'un noeud existant. 
+   La boîte de dialogue de coordonnées de noeud apparait, permettant de modifier les coordonnées du noeud ou de supprimer le noeud en cliquant le bouton supprimer. 
+</p><br>
+
+<img style="width: 600px; height: 362px;" alt="" src="../images/redefined_node.png"><br>
+
+<h2>Limites</h2>
+<p>
+    L'outil de modification d'une limite dans le travail de Redéfinition du Cadastre est similaire à l'outil de modification dans le travail de Modification du Cadastre. 
+    La grande différence est que l'outil de changement de limite dans le travail de Redéfinition du Cadastre permet de redéfinir la limite  
+    d'une parcelle existante sans avoir à créer une nouvelle parcelle. 
+    L'outil Sélection de Limite <img style="width: 16px; height: 16px;" alt="" src="../images/56_select_boundary_icon.png"> sélectionne également automatiquement les deux parcelles adjacentes à la limite sélectionnée afin d'assurer 
+    que la limite redéfinie est partagée par les parcelles de chaque côté, évitant les intervals ou les superpositions dans le réseau du cadastre. 
+</p><br>
+
+<img style="width: 600px; height: 362px;" alt="" src="../images/boundary_change.png"><br>
+
+  
+<h2>Annuler les Modifications du Plan</h2>
+<p>
+   Si une erreur est faite pendant la Redéfinition du Cadastre, il est possible de supprimer tous les changements en utilisant l'outil de remise à zéro (Reset) des changements
+   <img style="width: 16px; height: 16px;" alt="" src="../images/62_reset_changes.png"> 
+   Cet outil supprime TOUS les changements en attente, il est donc nécessaire de l'utiliser avec précaution. 
+   Si l'outil est utilisé par erreur, fermer l'écran de Redéfinition du Cadastre sans sauvegarder et ouvrir l'écran de nouveau. 
+   Tout changement déjà sauvegardé reste. 
+</p>
+
+
+  <p><b>Voir aussi</b></p>
+<ul>
+  <li><a href="map_viewer.html" target="_top">Visualisation Plan Cadastral</a></li>
+  <li><a href="perform_redefine_cadastre.html" target="_top">Procéder à une Redéfinition du Cadastre</a></li>
+  <li><a href="change_boundary.html" target="_top">Changer Limite</a></li>
+  <li><a href="../MainTopics/known_issues.html" target="_top">Problèmes Connus</a>
+  </li>
+</ul>
+<br>
+  <br>
+</body></html>

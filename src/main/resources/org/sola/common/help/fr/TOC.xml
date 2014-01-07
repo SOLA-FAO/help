@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version='1.0' encoding='ISO-8859-1' ?> -->
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+    <tocitem image="toplevelfolder" text="SOLA Desktop Aide">
+        <tocitem image="topic" target="overview" text="Vue d'ensemble"/>
+        <tocitem image="topic" target="license" text="Licence"/>
+        <tocitem image="category" text="Ecrans SOLA">
+            <tocitem image="topic" target="dashboard_and_main_menu" text="Accueil et Menu Principal"/>
+            <tocitem image="topic" target="map_viewer" text="Visualisation Plan Cadastral"/>
+            <tocitem image="topic" target="application_search" text="Recherche d'une Demande"/>
+            <tocitem image="topic" target="application_details" text="Détails d'une Demande">
+                <tocitem image="topic" target="application_lifecycle" text="Cycle de vie d'une Demande"/>
+                <tocitem image="topic" target="service_lifecycle" text="Cycle de vie d'un Service"/>
+            </tocitem>
+            <tocitem image="topic" target="property_details" text="Détails d'une Propriété">
+                <tocitem image="topic" target="linkProperty" text="Liaison d'une Propriété"/>
+            </tocitem>
+            <tocitem image="topic" target="cadastre_change" text="Modification du Cadastre"/>
+            <tocitem image="topic" target="redefine_cadastre" text="Redéfinition du Cadastre"/>
+            <tocitem image="topic" target="propertySearch" text="Recherche d'une Propriété"/>
+            <tocitem image="topic" target="personSearch" text="Recherche d'une Partie"/> 
+            <tocitem image="topic" target="person" text="Détails d'une Partie"/> 
+            <tocitem image="topic" target="documentSearch" text="Recherche d'un Document"/> 
+            <tocitem image="topic" target="transactionedDocument" text="Enregistrement d'un Document"/> 
+<!--            <tocitem image="topic" target="userProfile" text="Profil Utilisateur"/> -->
+        </tocitem>	
+        <tocitem image="category" text="Comment faire">
+          <tocitem image="category" text="Général">
+            <tocitem image="topic" target="change_language" text="Changer la Langue"/>
+            <tocitem image="topic" target="lodge_new_application" text="Déposer une Nouvelle Demande"/>
+            <tocitem image="topic" target="edit_an_application" text="Editer une demande"/>
+            <tocitem image="topic" target="assign_an_application" text="Assigner une demande"/>
+            <tocitem image="topic" target="unassign_an_application" text="Retirer une demande"/>
+            <tocitem image="topic" target="calculate_fees" text="Calculer les Frais"/>
+            <tocitem image="topic" target="verify_property_details" text="Vérifier les Détails d'un Propriété"/>
+            <tocitem image="topic" target="cancel_withdraw_lapse_application" text="Annuler, Retirer ou Expirer une Demande"/>
+            <tocitem image="topic" target="add_location" text="Ajouter un repèrage à une Demande"/>
+<!--            <tocitem image="topic" target="add_agent_bank" text="Ajouter, Editer Intermédiaires et Banques"/>-->
+<!--            <tocitem image="topic" target="perform_title_search" text="Effectuer une Recherche Titre"/>-->
+<!--            <tocitem image="topic" target="create_cadastre_print" text="Créer Impression Cadastre"/>-->
+<!--            <tocitem image="topic" target="print_document_copy" text="Imprimer Copie de Document"/>-->
+<!--            <tocitem image="topic" target="view_lodgement_report" text="Visualiser Rapport des Dépôts"/>-->
+           </tocitem>
+           <tocitem image="category" text="Documents">
+            <tocitem image="topic" target="add_document" text="Ajouter un Document"/>	
+            <tocitem image="topic" target="attach_digital_document" text="Attacher un Document Numérique"/>	
+<!--            <tocitem image="topic" target="add_upd_attached_document" text="Ajouter ou Mettre à jour un Fichier d'Attachement à un Document Existant"/>	-->
+<!--            <tocitem image="topic" target="link_document" text="Lier à la Procuration et aux Documents Standards"/>	-->
+<!--            <tocitem image="topic" target="register_power_attorney" text="Enregistrer Procuration"/>	-->
+<!--            <tocitem image="topic" target="cancel_power_attorney" text="Annuler Procuration"/>	-->
+<!--            <tocitem image="topic" target="register_standard_document" text="Enregistrer Documents Standards"/>	-->
+<!--            <tocitem image="topic" target="withdraw_standard_document" text="Retirer Documents Standards"/>	-->
+           </tocitem>
+           <tocitem image="category" text="Enregistrement Foncier">
+            <tocitem image="topic" target="add_ownership_details" text="Ajouter les détails du Droit de Propriété à une Propriété"/>
+            <tocitem image="topic" target="share" text="Créer une part"/>
+            <tocitem image="topic" target="add_simple_right" text="Créer un Droit simple"/>
+            <tocitem image="topic" target="add_mortgage" text="Ajouter les détails de l'hypothèque à une Propriété"/>
+<!--        <tocitem image="topic" target="land_registration_application" text="Déposer et Traiter une Demande d'Enregistrement Foncier"/>
+            <tocitem image="topic" target="change_ownership" text="Enregistrer et Changer le Droit de Propriété"/>
+            <tocitem image="topic" target="change_estate" text="Changer le Type de Bien"/>
+            <tocitem image="topic" target="manage_titles" text="Annuler Titres et Créer de Nouveaux Titres"/>
+            <tocitem image="topic" target="manage_mortgage" text="Enregistrer, Varier et s’Acquitter d’une Hypothèque"/>
+            <tocitem image="topic" target="manage_lease" text="Enregistrer, Varier et Eteindre un Bail"/>
+            <tocitem image="topic" target="manage_caveat" text="Enregistrer, Varier et Retirer un Caveat"/>
+            <tocitem image="topic" target="manage_easements" text="Enregistrer, Varier et Annuler une Servitude"/>
+            <tocitem image="topic" target="manage_general" text="Enregistrer ou Varier Droits Généraux ou Restrictions"/>
+            <tocitem image="topic" target="cancel_rrr" text="Annuler Droit ou Restriction"/>
+            <tocitem image="topic" target="convert_paper_title" text="Convertir Titre Papier"/>
+            <tocitem image="topic" target="property_wizard" text="Utiliser l'Assistant d'Ajout de Propriété Parent"/>
+-->
+	   </tocitem>
+           <tocitem image="category" text="Levé">
+            <tocitem image="topic" target="perform_cadastre_change" text="Procéder à une Modification du Cadastre"/> 
+<!--            <tocitem image="topic" target="record_plan" text="Enregistrer un Plan"/> -->
+            <tocitem image="topic" target="perform_redefine_cadastre" text="Procéder à une Redéfinition du Cadastre"/> 
+            <tocitem image="topic" target="change_boundary" text="Changer Limite"/>
+<!--            <tocitem image="topic" target="add_plan_image_digitizing" text="Ajouter une Image de Plan pour la Numérisation"/>-->
+<!--            <tocitem image="topic" target="import_survey_data" text="Importer Fichier de Données de Levé"/>-->
+           </tocitem>
+           <tocitem image="category" text="Enregistrement Systématique">
+            <tocitem image="topic" target="sys_reg_rights_claim" text="Enr. Sys. Déclarer des Droits"/>
+            <tocitem image="topic" target="sys_reg_record_objections" text="Enr. Sys. Enregistrer une Objection"/>
+            <tocitem image="topic" target="sys_reg_record_resolutions" text="Enr. Sys. Enregistrer une Résolution des Conflits"/>
+            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Enr. Sys. Préparer les Listings d'Affichage Public"/>
+            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Enr. Sys. Préparer les Plans d'Affichage Public"/>
+            <tocitem image="topic" target="sys_reg_certificates" text="Enr. Sys. Préparer l'Enregistrement des Certificats"/>
+            <tocitem image="topic" target="sys_reg_status_report" text="Enr. Sys. Préparer les rapports du Statut des Travaux"/>
+           </tocitem>
+        </tocitem>
+
+        <tocitem image="topic" target="issues" text="Problèmes Connus"/>			
+    </tocitem>
+</toc>

@@ -1,0 +1,106 @@
+<!--
+ ******************************************************************************************
+ Copyright (C) 2011 - Bits&Bytes(R) Software Solutions Limited
+ All rights reserved
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are not permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice,this list
+      of conditions and the following disclaimer.
+    2. Redistributions in binary form must reproduce the above copyright notice,this list
+      of conditions and the following disclaimer in the documentation and/or other
+      materials provided with the distribution.
+    3. Neither the name of Bits&Bytes Software Solutions Limited nor the names of its 
+       contributors may be used to endorse or promote products derived from this software
+       without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,PROCUREMENT
+ OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,STRICT LIABILITY,OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *********************************************************************************************
+ 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Changer Limite</title>
+
+  
+</head><body style="margin-left: 24px; width: 1040px;">
+<h1>Changer Limite</h1>
+
+<p>Il est possible de modifier les limites entières soit d'une nouvelle parcelle (Service Modification Cadastre) soit d'une parcelle existante (Service Redéfinition du Cadastre). 
+    En réalité, l'outil est conçu pour changer les limites entières des objets au lieu de points uniques. 
+</p><br>
+
+<p>Sélectionner la limite à modifier en utilisant l'outil Sélectionner la limite <img style="width: 16px; height: 16px;" alt="" src="../images/56_select_boundary_icon.png"> ,
+après avoir zoomé sur la parcelle à modifier.
+  <ol>
+    <li>Sélectionner un point qui sera le point de départ de la modification (il peut être un noeud existant ou un nouveau noeud ajouté)</li>
+    <li>Sélectionner un point (dans le sens des aiguilles d'une montre) qui sera le point de fin de la modification (il peut être un noeud existant ou un nouveau noeud ajouté)</li>
+ 
+  </ol>
+Ces points s'affichent dans le plan sous forme de croix verts au-dessus de la limite. 
+Le segment de limite qui sera modifié apparaît sous forme d'une ligne rouge.
+</p><br>
+<img style="width: 600px; height: 362px;" alt="" src="../images/selected_boundary.png"><br>
+<p>Maintenant, sélectionner l'outil Modifier la Limite  <img style="width: 16px; height: 16px;" alt="" src="../images/57_modify_boundary_icon.png">
+
+<ol>
+
+    <li>Cliquer sur le point qui est le point de départ de la limite à modifier.</li>
+    <li>Cliquer sur les nouveaux points faisant partie de la nouvelle limite.</li>
+    <li>Double cliquer sur le point qui est le point de fin de la limite à modifier.</li>
+ 
+</ol>
+
+La nouvelle limite s'affiche en vert pale et l'ancienne en vert foncé. 
+<br>Ainsi, la nouvelle limite peut être comparée à la précédente et les parcelles en questions seront attribuées du statut En Attente.
+</p><br>
+<img style="width: 600px; height: 362px;" alt="" src="../images/change_boundary.png"><br>
+<p>Avant la sauvegarde, il est possible de modifier la limite autant de fois que nécessaire. Il est également possible d'utiliser la liste des parcelles pour supprimer une nouvelle parcelle si une erreur est faite pendant la procédure.
+</p>
+
+<h2>Ajouter une Image pour la Modification ou Redéfinition du Cadastre</h2>
+
+<p>Il est possible d'ajouter une image directe dans le plan pour les deux services de Modification et Redéfinition du Cadastre en utilisant l'outil 
+    <img style="width: 16px; height: 16px;" alt="" src="../images/58_add_image_icon.png">
+    d'image directe.
+    Ces images de petites tailles ne sont utilisées que pour l'orientation dans le plan, 
+    par exemple pour dessiner une autre limite, non pas pour charger une image satellite.
+    <ol>
+     <li>Cliquer pour définir le coint bas-gauche de l'image (un 'X' vert apparait à l'endroit du clic)</li>
+     <li>Cliquer pour définir le coint haut-droit de l'image (un 'X' vert apparait à l'endroit du clic)</li>
+     <li>Choisir une image (jpg, jpeg, png, tif) depuis la boîte de dialogue de fichiers chargés (l'image doit s'ouvrir)</li>
+     <li>Définir le premier point de l'image en cliquant (un 'X' vert apparait à l'endroit du clic)</li>
+     <li>Définir le deuxième point de l'image en cliquant (un 'X' vert apparait à l'endroit du clic)</li>
+     <li>Cliquer OK</li>
+    </ol>
+    L'image s'affiche directement dans le plan (pas besoin de géo-référencement)
+</p>
+<p> Il est possible de supprimer l'image ajoutée en utilisant l'outil Supprimer Image Ajoutée <img style="width: 16px; height: 16px;" alt="" src="../images/59_remove_image_icon.png">
+<br>Il y a aussi un calque dans l'onglet Calque appelé "Image" qui peut être utilisé pour afficher ou cacher l'image du plan.    
+</p>
+
+  
+  <p><b>Voir aussi</b></p>
+<ul>
+  <li><a href="map_viewer.html" target="_top">Visualisation Plan Cadastral</a></li>
+  <li><a href="cadastre_change.html" target="_top">Modification du Cadastre</a></li>
+  <li><a href="redefine_cadastre.html" target="_top">Redéfinir le Cadastre</a></li>
+  <li><a href="../MainTopics/known_issues.html" target="_top">Problèmes Connus</a>
+  </li>
+</ul>
+<br>
+  <br>
+  <br>
+  <br>
+</body></html>
