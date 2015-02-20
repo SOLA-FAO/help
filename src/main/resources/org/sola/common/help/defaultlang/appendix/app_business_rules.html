@@ -1,0 +1,380 @@
+<html>
+  <head>
+    <meta content="text/html; charset=Cp1252" http-equiv="Content-Type">
+    <meta name="generator" content="Helen">
+    <title>Appendix 1 - SOLA&nbsp;Business Rules</title>
+  </head>
+  <body>
+    <h1 style=" margin-left: 20.0px;">
+       Appendix 1 - SOLA&nbsp;State Land Business Rules
+    </h1>
+    <p style=" margin-left: 20.0px;">
+       This appendix can be used to determine the remedial action that should be undertaken when a
+      SOLA State Land business rule fails.
+    </p>
+    <table style=" margin-left: 20.0px;" cellspacing="0" border="1" cellpadding="4">
+      <thead>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             <b>Code</b>
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             <b>Message</b>
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             <b>Remedial Action</b>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             AP040
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             A job must have at least one task
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Add a task to the job.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             AP070
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             All tasks in the job must have the status 'cancelled' or 'completed'.
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Check that all tasks have been completed (or cancelled).
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             AP160
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Document date must not be in the future; _$doc_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Check the date of the document(s) specified and amend the document date where
+            necessary
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             AP190
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Documents lodged with a job should have a scanned image file (or other source file)
+            attached; _$doc_list"
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Add a scanned image (or other source file) to the document(s) specified.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             AP240
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Title has the same area as the combined area of its associated parcels
+          </p>
+        </td>
+        <td valign="bottom" width="48%">
+          <p>
+             Verify that the property area is the same as the sum of the associated parcel areas.
+          </p>
+          <p>
+             &nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA030
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Property must have an associated parcel.
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Add at least one parcel to the property using the Parcel tab of the Property Details
+            screen.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA070
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             _$property_name must have one State Landholder interest or one Owner interest.
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Add a State Landholder interest or an Owner interest to the specified property.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA110
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Notes on _$property_name require action; _$notes_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Review the property listed and if applicable address the actionable notes.&nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA120
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Parcels on _$property_name have not been mapped; _$parcel_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Review the property listed and if applicable, remove / unlink parcels that are not
+            mapped and replace them with parcels that are mapped.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA130
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             _$property_name must be linked to parcels that specify land use
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Review the parcels linked to the property and ensure they specify a land use.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             BA140
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             All current interests on the property being disposed must be extinguished by this job
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Extinguish all interests on the any property being disposed by the job.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             CA140
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             The difference between the official parcel area and its calculated area should be less
+            than 1%; _$parcel_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Check the official areas for the new parcels specified as they differ significantly
+            from the system calculated areas
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             CA150
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             New parcel polygons must not overlap
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Edit the newly mapped parcels to ensure they do not overlap.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             CA250
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Parcel name(s) inconsistent with naming convention; _$parcel_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Check the names assigned to the parcels listed and update the names as appropriate.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             CA260
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             _$rule_count duplicated parcel name(s); _$parcel_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Update the parcels listed so they have unique names.&nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             RR040
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             The _$rrr_type interest on _$property_name must have a rightholder specified
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Add rightholders to the specified interest on the property identified.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             RR050
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             The sum of the shares (in ownership rights) must total to 1
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Modify the shares so that they total to 1
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             RR150
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             _$rrr_type on _$property_name should have conditions recorded
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Update the specified interest to include conditions.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             VA010
+          </p>
+        </td>
+        <td valign="top" width="41%">
+          <p>
+             Final compensation is more than %10 above the initial offer; _$property_list
+          </p>
+        </td>
+        <td valign="top" width="48%">
+          <p>
+             Review the amount of compensation is appropriate for the specified property.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <h3 style=" margin-left: 20.0px;">
+       Also See
+    </h3>
+    <ul>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul>
+          <li>
+            <a href="../concepts/business_rules.html">Business Rules</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

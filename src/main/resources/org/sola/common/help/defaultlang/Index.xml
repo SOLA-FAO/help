@@ -1,35 +1,154 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE index
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+                       "http://java.sun.com/products/javahelp/index_2_0.dtd">
 
-<index version="1.0">
-	<indexitem target="colors" text="Color View"/>
-	<indexitem target="apply_colors" text="applying colors"/>
-	<indexitem target="text_styles" text="bolding text"/>
-	<indexitem target="change_fonts" text="changing fonts"/>
-	<indexitem target="clear_text" text="clearing text"/>
-	<indexitem target="apply_colors" text="colors, applying"/>
-	<indexitem target="enter_text" text="entering text"/>
-	<indexitem target="change_fonts" text="fonts, changing"/>
-	<indexitem target="online_help" text="help, online"/>
-	<indexitem target="overview" text="introduction"/>
-	<indexitem target="text_styles" text="italicizing text"/>
-	<indexitem target="online_help" text="online help"/>
-	<indexitem target="overview" text="overview"/>
-	<indexitem target="switch_views" text="switching views"/>
-	<indexitem text="text">
-		<indexitem target="text_styles" text="bolding"/>
-		<indexitem target="clear_text" text="clearing"/>
-		<indexitem target="apply_colors" text="colors, applying"/>
-		<indexitem target="enter_text" text="entering"/>
-		<indexitem target="change_fonts" text="fonts, changing"/>
-		<indexitem target="text_styles" text="italicizing"/>
+<index version="2.0">
+	<indexitem text="Business Rules">
+		<indexitem text="About business rules" target="business_rules" />
+		<indexitem text="SOLA State Land Business Rules" target="app_business_rules" />
 	</indexitem>
-	<indexitem target="typefaces" text="Typeface View"/>
-	<indexitem text="views">
-		<indexitem target="colors" text="Color"/>
-		<indexitem target="switch_views" text="switching"/>
-		<indexitem target="typefaces" text="Typeface"/>
+	<indexitem text="Checklist">
+		<indexitem text="Create a checklist for a job" target="create_checklist" />
+		<indexitem text="View checklist details" target="checklist" />
+	</indexitem>
+	<indexitem text="Claims">
+		<indexitem text="Record, change and cancel claims" target="process_claim" />
+		<indexitem text="View claim interest details" target="rightholder_interest" />
+	</indexitem>
+	<indexitem text="Documents">
+		<indexitem text="Add a document to a job" target="add_doc_to_application" />
+		<indexitem text="Add or update a file attachment on an existing document" target="update_attachment" />
+		<indexitem text="Attach a file to a new document" target="attach_file" />
+		<indexitem text="Search for a document" target="document_search" />
+		<indexitem text="Types of document" target="documents" />
+		<indexitem text="View document details" target="document_details" />
+	</indexitem>
+	<indexitem text="Interests">
+		<indexitem text="Cancel an interest" target="cancel_interest" />
+		<indexitem text="Change an existing interest" target="change_interest" />
+		<indexitem text="Record an interest" target="record_interest" />
+		<indexitem text="Types of interest" target="rrr" />
+		<indexitem text="View conditional interests" target="conditional_interest" />
+		<indexitem text="View lease and license interests" target="lease_interest" />
+		<indexitem text="View ownership interest" target="ownership_interest" />
+		<indexitem text="View rightholder interests" target="rightholder_interest" />
+		<indexitem text="View simple interests" target="simple_interest" />
+	</indexitem>
+	<indexitem text="Jobs">
+		<indexitem text="About jobs" target="app_lifecycle" />
+		<indexitem text="Add a location for a job" target="add_location" />
+		<indexitem text="Approve a job" target="approve_job" />
+		<indexitem text="Assign a property manager to a job" target="assign_pm_to_job" />
+		<indexitem text="Assign a user to a job" target="assign_user_to_job" />
+		<indexitem text="Cancel a job" target="cancel_application" />
+		<indexitem text="Edit a job" target="edit_application" />
+		<indexitem text="Hold a job" target="hold_job" />
+		<indexitem text="Lodge a new job" target="lodge_new_application" />
+		<indexitem text="Search for a job" target="application_search" />
+		<indexitem text="View job details" target="application_details" />
+		<indexitem text="View the lodgments report" target="view_lodgment_report" />
+	</indexitem>
+	<indexitem text="Lease">
+		<indexitem text="Record, change and cancel leases" target="process_lease" />
+		<indexitem text="View lease interest details" target="lease_interest" />
+	</indexitem>
+	<indexitem text="License">
+		<indexitem text="Record, change and cancel license interests" target="process_license" />
+		<indexitem text="SOLA State Land license" target="licensing" />
+		<indexitem text="View license interest details" target="lease_interest" />
+	</indexitem>
+	<indexitem text="Map">
+		<indexitem text="Exporting from the map" target="map_kml_export" />
+		<indexitem text="Map layers" target="map_layers" />
+		<indexitem text="Measure distances on the map" target="map_measure_tool" />
+		<indexitem text="Navigate the map" target="map_scale_location" />
+		<indexitem text="Obtain information from the map" target="information_tool" />
+		<indexitem text="Print the map" target="map_print" />
+		<indexitem text="Search the map" target="map_find" />
+		<indexitem text="Tools provided by the map" target="map_tools" />
+		<indexitem text="Viewing the map" target="map_viewer" />
+	</indexitem>
+	<indexitem text="Negotiations">
+		<indexitem text="Manage negotiations" target="manage_negotiations" />
+		<indexitem text="View negotiation details" target="negotiations" />
+	</indexitem>
+	<indexitem text="Notifications">
+		<indexitem text="Manage notifications" target="manage_notifications" />
+		<indexitem text="View notification details" target="notifications" />
+	</indexitem>
+	<indexitem text="Objections">
+		<indexitem text="Manage objections" target="manage_objections" />
+		<indexitem text="View objection details" target="objections" />
+	</indexitem>
+	<indexitem text="Parcels">
+		<indexitem text="Add a plan image for digitizing" target="digitize_image" />
+		<indexitem text="Adding new parcels" target="parcel_map_editor_add" />
+		<indexitem text="Approve parcel edits" target="parcel_map_editor_approve" />
+		<indexitem text="Create or change parcels" target="create_parcels" />
+		<indexitem text="Edit parcels" target="parcel_map_editor_edit" />
+		<indexitem text="Select a parcel to edit" target="parcel_map_editor_select" />
+		<indexitem text="The parcel map editor" target="parcel_map_editor" />
+		<indexitem text="Use heads up digitizing" target="heads_up_digitizing" />
+		<indexitem text="View parcel details" target="parcel_details" />
+		<indexitem text="View the list of parcels being edited" target="parcel_map_editor_list" />
+	</indexitem>
+	<indexitem text="Party">
+		<indexitem text="Search for a party" target="party_search" />
+		<indexitem text="View party details" target="party_details" />
+	</indexitem>
+	<indexitem text="Property">
+		<indexitem text="Assign a property manager to a property" target="assign_pm_to_property" />
+		<indexitem text="Dispose of a property" target="dispose_property" />
+		<indexitem text="Maintain a property" target="maintain_property" />
+		<indexitem text="Record and actionable note for a property" target="actionable_note_for_property" />
+		<indexitem text="Record a new property" target="record_new_property" />
+		<indexitem text="Search for a property" target="property_search" />
+		<indexitem text="View property details" target="property_details" />
+		<indexitem text="View property note details" target="note_details" />
+	</indexitem>
+	<indexitem text="Property Manager">
+		<indexitem text="Add or edit property managers" target="add_property_manager" />
+		<indexitem text="Assign a property manager to a job" target="assign_pm_to_job" />
+		<indexitem text="Assign a property manager to a property" target="assign_pm_to_property" />
+	</indexitem>
+	<indexitem text="Public Display">
+		<indexitem text="About the public display map" target="public_display_map" />
+		<indexitem text="Create a public display map for a job" target="manage_public_display_map" />
+		<indexitem text="Manage items for public display" target="manage_public_display" />
+		<indexitem text="View public display details" target="public_display" />
+	</indexitem>
+	<indexitem text="Security">
+		<indexitem text="Secure a data record" target="secure_data_record" />
+	</indexitem>
+	<indexitem text="SOLA State Land Desktop">
+		<indexitem text="Add or edit teams" target="add_teams" />
+		<indexitem text="Change the display language" target="change_language" />
+		<indexitem text="Change your password" target="change_password" />
+		<indexitem text="Concepts" target="concepts_intro" />
+		<indexitem text=" Features" target="features" />
+		<indexitem text="Log in" target="login" />
+		<indexitem text="UI Navigation Diagram" target="navigation_diagram" />
+		<indexitem text="Uninstall SOLA State Land" target="uninstall" />
+	</indexitem>
+	<indexitem text="Tasks">
+		<indexitem text="About tasks" target="services" />
+		<indexitem text="Claim Tasks" target="claim_tasks" />
+		<indexitem text="Interest Tasks" target="interest_tasks" />
+		<indexitem text="Job Tasks" target="job_tasks" />
+		<indexitem text="Lease and License Tasks" target="lease_tasks" />
+		<indexitem text="Parcel Tasks" target="parcel_tasks" />
+		<indexitem text="Property Tasks" target="property_tasks" />
+		<indexitem text="Task Lifecycle" target="service_lifecycle" />
+	</indexitem>
+	<indexitem text="Troubleshooting">
+		<indexitem text="Logging" target="logging" />
+	</indexitem>
+	<indexitem text="User">
+		<indexitem text="View user profile" target="user_profile" />
+		<indexitem text="View your dashboard" target="dashboard" />
+	</indexitem>
+	<indexitem text="Valuations">
+		<indexitem text="Manage valuations" target="manage_valuations" />
+		<indexitem text="View valuation details" target="valuations" />
 	</indexitem>
 </index>

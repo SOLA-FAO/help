@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <meta content="text/html; charset=Cp1252" http-equiv="Content-Type">
+    <meta name="generator" content="Helen">
+    <title>Task Lifecycle</title>
+  </head>
+  <body>
+    <h2 style=" margin-left: 20.0px;">
+       Task Lifecycle
+    </h2>
+    <p style=" margin-left: 20.0px;">
+       Like jobs, tasks can also exist in different states which they transition to via task
+      actions.&nbsp; The actions you can apply to a task are
+    </p>
+    <p style=" margin-left: 20.0px;">
+       &nbsp;
+    </p>
+    <table style=" margin-left: 20.0px;" cellspacing="2" border="0" cellpadding="2">
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/save.png" hspace="4">Lodge
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             This action is triggered when you save a new task for the first time. The Lodge action
+            causes the task to be assigned the Lodged status.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/start.png" hspace="4">Start
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             To start processing the task, use the Start tool on the Job Details Tasks tab toolbar.
+            The Start action transitions the task into the Pending status.
+          </p>
+          <p>
+             The Start tool is available when the job is assigned and one of the tasks in the task
+            list is selected.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/cancel.png" hspace="4">Cancel
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             If a task is no longer required or is inappropriate for the job, the task can be
+            cancelled using the Cancel tool on the Job Details Task tab toolbar. The Cancel action
+            transitions the task to the Cancelled status. Note that all tasks must be in the
+            Cancelled or Completed status before the job can be approved.
+          </p>
+          <p>
+             The Cancel tool is available when the job is assigned and one of the tasks in the task
+            list is selected.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/confirm.png" hspace="4">Complete
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             To complete processing of the task, use the Complete tool on the Job Details Task tab
+            toolbar. The Complete action executes business rules for the task and transitions it to
+            the Complete status if the rule checks are successful. Note that all tasks must be in
+            the Cancelled or Completed status before the job can be approved.
+          </p>
+          <p>
+             The Complete tool is available when the job is assigned and one of the tasks in the
+            task list is selected.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/revert.png" hspace="4">Revert
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             During quality review or approval, if the user determines a task requires further
+            attention, they can reset the status of the task using the Revert tool on the Job
+            Details Task tab toolbar. The Revert action transitions the task back to the Pending
+            status for further processing.
+          </p>
+          <p>
+             The Revert tool is available when the Job is assigned and the selected task has the
+            Completed status.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <p style=" margin-left: 20.0px;">
+       The following state transition diagram illustrates the Task Lifecycle and the effect
+      different actions have on Task status.&nbsp;
+    </p>
+    <p>
+       &nbsp;
+    </p>
+    <p align="center">
+       <img src="../images/00b_service_lifecycle.png">
+    </p>
+    <p align="center">
+       <b>Task Lifecycle</b>
+    </p>
+  </body>
+</html>

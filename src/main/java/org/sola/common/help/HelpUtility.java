@@ -79,23 +79,23 @@ public class HelpUtility {
 
         langCode = userLanguage;
 
-        String pathToHS = langCode + "/HelpSet.xml";
+        String pathToHS = langCode + "/helpset.hs";
         String subpath = helpTopicName;
         String initsubpath = subpath.substring(0, 1);
 
         if (initsubpath.contains("1")) {
             String helpsetsubpath = subpath.substring(1, 5);
-            pathToHS = langCode + "/HelpSet" + helpsetsubpath + ".xml";
+            pathToHS = langCode + "/helpset" + helpsetsubpath + ".hs";
         }
 
         try {
             URL hsURL = getClass().getResource(pathToHS);
-            LogUtility.log("Found HelpSet at " + pathToHS, Level.FINE);
+            LogUtility.log("Found helpset at " + pathToHS, Level.FINE);
             helpSet = new HelpSet(null, hsURL);
             helpBroker = helpSet.createHelpBroker();
         } catch (Exception ee) {
-            System.out.println("HelpSet: " + ee.getMessage());
-            System.out.println("HelpSet: " + pathToHS + " not found");
+            System.out.println("helpset: " + ee.getMessage());
+            System.out.println("helpset: " + pathToHS + " not found");
             String[] params = {"" + ee.getMessage(), "" + pathToHS};
             MessageUtility.displayMessage(ClientMessage.EXCEPTION_HELPSET, params);
         }

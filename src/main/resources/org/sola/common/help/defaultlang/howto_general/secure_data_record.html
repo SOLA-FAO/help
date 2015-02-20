@@ -1,0 +1,245 @@
+<html>
+  <head>
+    <meta content="text/html; charset=Cp1252" http-equiv="Content-Type">
+    <meta name="generator" content="Helen">
+    <title>Secure a Data Record</title>
+  </head>
+  <body>
+    <h1 style=" margin-left: 20.0px;">
+       Secure a Data Record
+    </h1>
+    <p style=" margin-left: 20.0px;">
+       SOLA State Land supports the application of security classifications to commercially
+      sensitive or culturally sensitive data records in order to limit the users that can view
+      those records. To configure security for a specific record, click <img src=
+      "../images/icons/lock.png" style=" margin-left: 0.0px;" hspace="4">Security in the applicable
+      details screen. This will open the Security dialog.
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img src="../images/36_security dialog.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Security dialog</b>
+    </p>
+    <p style=" margin-left: 20.0px;">
+       You can select a Classification level and/or a Redact level. If the Classification level is
+      set, only users with that classification level (or a higher level) will be able to view the
+      record.&nbsp; If the user has a lesser classification level, the record will not appear in
+      any search results or lists preventing them from accessing the record.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       The Redact level can be used to obscure specific fields on the record (i.e. redaction). The
+      record will still appear in search results or other lists, but when the user views the
+      record, the redacted fields will either appear blank or contain a generic message to inform
+      the user they are not viewing the actual data value. Redaction can be useful where it is
+      necessary for users to be aware that a record exists, but should not be aware of sensitive
+      details within the record.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       The options available for selection for both classification and redaction are
+    </p>
+    <table style=" margin-left: 20.0px;" cellspacing="2" border="0" cellpadding="2">
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              None / Blank
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          <p>
+             No security level applies. The record is unrestricted and all users have access to the
+            record. The default level for all new records.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Unrestricted
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          No security level applies. The record is unrestricted and all users have access to the
+          record.&nbsp; This is the same as the None / Blank option, but indicates that a user has
+          explicitly determined the record is unrestricted.
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Restricted
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          <p>
+             The record is restricted. Only users with the Restricted, Confidential, Secret or Top
+            Secret security roles can view all the record details.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Confidential
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          <p>
+             The record is restricted. Only users with the Confidential, Secret or Top Secret
+            security roles can view all the record details.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Secret
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          <p>
+             The record is restricted. Only users with the Secret or Top Secret security roles can
+            view all the record details.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Top Secret
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          The record is restricted. Only users with the Top Secret security role can view all the
+          record details.
+        </td>
+      </tr>
+      <tr>
+        <td valign="middle">
+          <ul>
+            <li>
+              Suppression Order
+            </li>
+          </ul>
+        </td>
+        <td valign="middle">
+          Indicates the record is subject to a legal suppression order to prevent the details from
+          being broadly accessible. Only users with the Suppression Order or Top Secret security
+          roles can view all the record details.
+        </td>
+      </tr>
+    </table>
+    <p style=" margin-left: 20.0px;">
+       Once you have selected the Classification and/or Redact level, click Close to close the
+      Security dialog and return to the details screen. Be sure to Save the details screen
+      otherwise your changes in the Security dialog will be lost.
+    </p>
+    <h2 style=" margin-left: 20.0px;">
+       <b>Notes</b>
+    </h2>
+    <ul type="disc">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul type="disc">
+          <li>
+            You can set both the classification level and redact level for the same record. Be
+            aware that if you set the classification level to a higher security level than the
+            redact level, then the redact level will have no effect as the classification will
+            prevent the record from being displayed to users with a lower security level.
+          </li>
+          <li>
+            Users are assigned security classifications through assignment of SOLA security roles.
+            Contact the System Administrator if you believe your security classifications are not
+            configured correctly.
+          </li>
+          <li>
+            The fields subject to redaction must be configured during customization of SOLA State
+            Land. It is not possible for users to specific the fields that are to be redacted, only
+            the redaction level. For the State Land Demo application, only Party and Interest
+            record types support redaction. &nbsp;
+          </li>
+          <li>
+            SOLA State Land supports custom additional classification levels that can be configured
+            during customization.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 style=" margin-left: 20.0px;">
+       Also See
+    </h2>
+    <ul type="disc">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul type="disc">
+          <li>
+            State Land Desktop Screens 
+            <ul type="circle">
+              <li>
+                <a href="../screens/application_details.html">Job Details</a>
+              </li>
+              <li>
+                <a href="../screens/property_details.html">Property Details</a>
+              </li>
+              <li>
+                <a href="../screens/note_details.html">Note Details</a>
+              </li>
+              <li>
+                <a href="../screens/parcel_details.html">Parcel Details</a>
+              </li>
+              <li>
+                <a href="../screens/simple_interest.html">Simple Interest</a>
+              </li>
+              <li>
+                <a href="../screens/rightholder_interest.html">Rightholder Interest</a>
+              </li>
+              <li>
+                <a href="../screens/ownership_interest.html">Ownership Interest</a>
+              </li>
+              <li>
+                <a href="../screens/lease_interest.html">Lease Interest</a>
+              </li>
+              <li>
+                <a href="../screens/conditional_interest.html">Conditional Interest</a>
+              </li>
+              <li>
+                <a href="../screens/document_details.html">Document Details</a>
+              </li>
+              <li>
+                <a href="party_details.html">Party Details</a>
+              </li>
+              <li>
+                <a href="../screens/valuations.html">Valuations</a>
+              </li>
+              <li>
+                <a href="../screens/public_display.html">Public Display</a>
+              </li>
+              <li>
+                <a href="../screens/notifications.html">Notifications</a>
+              </li>
+              <li>
+                <a href="../screens/negotiations.html">Negotiations</a>
+              </li>
+              <li>
+                <a href="../screens/objections.html">Objections</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+       &nbsp;
+    </p>
+  </body>
+</html>
