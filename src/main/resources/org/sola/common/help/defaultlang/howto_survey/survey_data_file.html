@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <meta content="text/html; charset=Cp1252" http-equiv="Content-Type">
+    <meta content="Helen" name="generator">
+    <title>Import a Survey Data File</title>
+  </head>
+  <body>
+    <h1 style=" margin-left: 20.0px;">
+       Import a Survey Data File
+    </h1>
+    <p style=" margin-left: 20.0px;">
+       When capturing survey plan data, you have the option of loading coordinate data directly
+      from a Comma Separated Values (CSV) text file. The file must be a plain text file containing
+      3 columns of data. Those columns are
+    </p>
+    <ol>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol>
+          <li>
+            Number for the point
+          </li>
+          <li>
+            X ordinate
+          </li>
+          <li>
+            Y ordinate
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;">
+       Other rules that apply to the Survey Data File include
+    </p>
+    <ul type="disc">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul type="disc">
+          <li>
+            Each column value must be separated by a comma (,)
+          </li>
+          <li>
+            If the first row of the file is a header row the default setting for the first line of
+            ‘1’ can be retained and this first row will be ignored. If it is a Trimble GPS data
+            file there is no header row and the setting for the first line (at the bottom of the
+            dialog) should be set to ‘0'
+          </li>
+          <li>
+            The file must have the .csv file extension (e.g. filename.csv)
+          </li>
+          <li>
+            <p>
+               No transformation of the coordinates is performed during import. The coordinates
+              must be in the same coordinate system as that used by the Map Viewer.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p style=" margin-left: 20.0px;">
+       To import the CSV file, you must first attach the file as a document to the application
+      using the Add Documents functionality available on the Documents tab of the Application
+      Details screen. You should also select Survey Data File as the document type for the new
+      document.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       Once the CSV file has been attached to the application, Start the Change to Cadastre service
+      and go to the Documents tab (displayed beside the Layers and Find tabs). Click the Add button
+      to open the Select Document dialog and select the Survey Data File document from the
+      application.&nbsp;
+    </p>
+    <p style=" margin-left: 20.0px;">
+       Next, select the Survey Data File document from the list of documents in the Documents
+      tab.&nbsp; If the attached CSV file has a .csv file extension, then the Add points button
+      will become enabled. Click the Add points button to add the coordinates from the file. The
+      new survey points will be displayed on the map.
+    </p>
+    <p align="center" style=" margin-left: 20.0px;">
+       <img src="../images/60_import_docs_tab.png">
+    </p>
+    <p align="center" style=" margin-left: 20.0px;">
+       <b>Line Number Setting for Trimble GPS&nbsp;Data</b>
+    </p>
+    <p style=" margin-left: 20.0px;">
+       If the Add Points button does not become enabled when you select the Survey Data File
+      document, verify that the document has a file attachment and that file has a .csv extension.
+      &nbsp;
+    </p>
+    <h2 style=" margin-left: 20.0px;">
+       Also See
+    </h2>
+    <ul type="disc">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul type="disc">
+          <li>
+            Registry Desktop Screens 
+            <ul type="circle">
+              <li>
+                <a href="../screens/change_cadastre.html">Change to Cadastre</a>
+              </li>
+              <li>
+                <a href="../screens/redefine_cadastre.html">Redefine Cadastre</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Documents How To 
+            <ul type="circle">
+              <li>
+                <a href="../howto_documents/add_doc_to_application.html">Add a Document to an
+                Application</a>
+              </li>
+              <li>
+                <a href="../howto_documents/attach_file.html">Attach a File to a New Document</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Survey How To 
+            <ul type="circle">
+              <li>
+                <a href="../howto_survey/survey_record_plan.html">Record a Plan</a>
+              </li>
+              <li>
+                <a href="../howto_survey/survey_redefine_cadastre.html">Redefine the Cadastre</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Appendix 
+            <ul type="circle">
+              <li>
+                <a href="../appendix/app_trimble_export.html">Appendix 3 - Trimble Pathfinder
+                Software Configuration for SOLA&nbsp;Export CSV&nbsp;File</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+       &nbsp;
+    </p>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+    <meta name="generator" content="Helen">
+    <title>Applications</title>
+  </head>
+  <body>
+    <h1 style=" margin-left: 20.0px;">
+       Applications
+    </h1>
+    <p style=" margin-left: 20.0px;">
+       Applications can exist in different states as they progress through Registry. To transition
+      an application into a different state you need to trigger an action, although not every
+      action causes the application to change state. The actions you can apply to an application
+      are
+    </p>
+    <p style=" margin-left: 20.0px;">
+       &nbsp;
+    </p>
+    <table style=" margin-left: 20.0px;" cellpadding="0" border="0" cellspacing="6">
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/save.png" hspace="4">Lodge
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             This action is triggered when you save a new application for the first time. The Lodge
+            action causes the application to be assigned the Lodged state.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/validation.png" hspace="4">Validate
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Validates the details of the application and presents the results on the Validations
+            tab of the Application Details screen.
+          </p>
+          <p>
+             To validate an application, use the Validate tool in the Application Details
+            toolbar.&nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/assign.png" hspace="4">Assign
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Assigns the application to the nominated user.
+          </p>
+          <p>
+             Triggered from the Application Assignment screen.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/unassign.png" hspace="4">Un-assign
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Un-assigns the user currently assigned to the application.
+          </p>
+          <p>
+             Triggered from the Application Assignment screen.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/requisition.png" hspace="4">Requisition
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             An application may be requisitioned when further information is required from the
+            applicant or the agent using the Requisition tool in the Application Details toolbar.
+            The Requisition action transitions the application into the Requisitioned state
+            effectively placing it on hold until the additional information is received.
+          </p>
+          <p>
+             This tool is only available when the application is in a Lodged state and is assigned
+            to a user.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/resubmit.png" hspace="4">Resubmit
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Once the applicant or agent supplies the necessary information, the application can be
+            resubmitted for further processing using the Resubmit tool in the Application Details
+            toolbar.
+          </p>
+          <p>
+             This tool is only available when the application is in a Requisitioned state and is
+            assigned to a user.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/withdraw.png" hspace="4">Withdraw
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Applicants and/or agents can request the application to be withdrawn prior to
+            approval. To withdraw an application, use the Withdraw tool in the Application Details
+            toolbar. The Withdraw action transitions the application into the Annulled state.
+          </p>
+          <p>
+             This tool is available when the application is in a Lodged or Requisitioned state and
+            is assigned to a user.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/lapse.png" hspace="4">Lapse
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Applications that remain requisitioned for an extended period without response from
+            the applicant or agent may lapse. To lapse an application, use the Lapse tool in the
+            Application action dropdown. The Lapse action transitions the application into the
+            Annulled state.
+          </p>
+          <p>
+             This tool is only available when the application is in a Requisitioned state and is
+            assigned to a user.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/reject.png" hspace="4">Cancel
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Applications that are created by mistake, have become invalid or are rejected
+            following assessment can be cancelled at the discretion of the land administration
+            agency using the Cancel tool in the Application Details toolbar. The Cancel action
+            transitions the application into the Annulled state.
+          </p>
+          <p>
+             This tool is only available when the application is in a Lodged state.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/approve.png" hspace="4">Approve
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Following assessment of the application and completion of all services (completion or
+            cancellation), the application may be approved using the Approve tool in the
+            Application Details toolbar. The Approve action executes the approve business rules for
+            the application and transitions it into the Approved state if the rule checks are
+            successful.
+          </p>
+          <p>
+             This tool is only available when the application is in a Lodged state, is assigned to
+            a user and all services for the application are in either a Completed or Cancelled
+            state.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/envelope.png" hspace="4">Dispatch
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             Notifications (e.g. emails, letters and telephone calls) to the applicant or agent can
+            be noted against the application using the Dispatch tool in the Application Details
+            toolbar. Where practical, the notification should also be attached to the application
+            as a document for future reference.
+          </p>
+          <p>
+             The Dispatch tool is only available when the application is in an Approved,
+            Requisitioned or Annulled state.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <p>
+             <img src="../images/icons/archive.png" hspace="4">Archive
+          </p>
+        </td>
+        <td valign="top">
+          <p>
+             When all processing is complete and the appropriate notifications dispatched, the
+            application can be completed using the Archive tool in the Application Details toolbar.
+            The Archive action transitions the application into the Completed state.
+          </p>
+          <p>
+             Once it is complete, the application will no longer appear in the Assigned or
+            Unassigned lists on the Dashboard.
+          </p>
+          <p>
+             This tool is only available when the application is in an Approved or Annulled state.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <p style=" margin-left: 20.0px;">
+       The following state transition diagram illustrates the Application Lifecycle and the effect
+      different actions have on application state.&nbsp;
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img src="../images/00_app_lifecycle.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Application Lifecycle</b>
+    </p>
+  </body>
+</html>

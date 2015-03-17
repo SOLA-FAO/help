@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+    <meta content="Helen" name="generator">
+    <title>Appendix 3 - Trimble Pathfinder Software Configuration for 
+      SOLA&nbsp;Export CSV&nbsp;File</title>
+  </head>
+  <body>
+    <h1 style=" margin-left: 20.0px;">
+       Appendix 3 - Trimble Pathfinder Software Configuration for SOLA&nbsp;Export CSV&nbsp;File
+    </h1>
+    <p style=" margin-left: 20.0px;">
+       <u>SOLA CSV Format definition:</u>
+    </p>
+    <ul>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul>
+          <li>
+            First column: Is a unique identifier of the point within the file. It can start with 1
+            and incrementing by one.
+          </li>
+          <li>
+            Second column: X coordinate.(Easting)
+          </li>
+          <li>
+            Third column: Y coordinate. (Northing)<br>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p style=" margin-left: 20.0px;">
+       The values are separated by commas
+    </p>
+    <p style=" margin-left: 20.0px;">
+       Example:
+    </p>
+    <table width="192" border="0" cellspacing="0" style=" margin-left: 20.0px;" cellpadding="0">
+      <tr>
+        <td width="64" valign="bottom" nowrap="nowrap">
+          <p>
+             <i>Id,X,Y</i>
+          </p>
+        </td>
+        <td width="64" valign="bottom" nowrap="nowrap">
+          &nbsp;
+        </td>
+        <td width="64" valign="bottom" nowrap="nowrap">
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td width="192" valign="bottom" nowrap="nowrap" colspan="3">
+          <p>
+             <i>1,570559.75,5931649.69</i>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <p style=" margin-left: 20.0px;">
+       In this example the coordinate system&nbsp; will be&nbsp; UTM, &nbsp;Zone 31N and the datum
+      is WGS84.
+    </p>
+    <p style=" margin-left: 20.0px;">
+       <b>Steps</b>
+    </p>
+    <ol>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol>
+          <li>
+            Start Pathfinder Office and create/select a project.
+          </li>
+          <li>
+            Select <b>Utilities</b> &gt; <b>Export</b> and <b>New</b>:
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;" align="center">
+       &nbsp;<img style=" margin-left: 20.0px;" src="../images/90_appx_pathfinder_export.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>New Export Setup</b>
+    </p>
+    <ol start="3">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="3">
+          <li>
+            In the New Setup Window enter a Setup name (for example:&nbsp; _Sola CSV ).
+            <u>Note:</u> The underscore will bring the SOLA format to the top of the list later on.
+          </li>
+          <li>
+            Select <b>New Setup</b> and scroll for <b>Configurable ASCII</b> and tap <b>OK.</b>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;" align="center">
+       <img src="../images/90a_appx_coordsys_export.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Coordinate System Setup</b>
+    </p>
+    <ol start="5">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="5">
+          <li>
+            The Export Setup Properties Window will open. Select the <b>Coordinate System</b> Tap.
+          </li>
+          <li>
+            Select <b>Use Export Coordinate System</b> and tap <b>Change…</b> The Export Window
+            will open.
+          </li>
+          <li>
+            Select <b>System</b>: UTM
+          </li>
+        </ol>
+        <ul>
+          <li>
+            <b>Zone</b>: <i>Select the Zone for your location - e.g. 31 North</i>
+          </li>
+          <li>
+            <b>Datum</b>: <i>Select the Datum for your location - e.g. WGS84</i>
+          </li>
+        </ul>
+        <ol start="8">
+          <li>
+            Click <b>OK.</b> The Export Setup Properties Window will open again.
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p align="center">
+       <img style=" margin-left: 20.0px;" src="../images/90b_appx_template_name.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Export Template Name</b>
+    </p>
+    <ol start="9">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="9">
+          <li>
+            Select the <b>Configurable ASCII</b> Tab and <b>New</b>…
+          </li>
+          <li>
+            Enter a name for your new format (Example SOLA) and click <b>OK.</b> The <b>ASCII
+            Export Template Editor</b> page will open
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p align="center">
+       <img style=" margin-left: 20.0px;" src="../images/90c_appx_template_editor.png">
+    </p>
+    <p align="center">
+       <b>Export Template Editor</b>
+    </p>
+    <ol start="11">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="11">
+          <li>
+            Enter the <b>Output File Extension</b> : CSV
+          </li>
+          <li>
+            <b>Apply to</b> : Points only
+          </li>
+          <li>
+            Select the <b>Field Format</b> : Delimited
+          </li>
+          <li>
+            Select the <b>Delimiters Field</b> : Comma (,)
+          </li>
+          <li>
+            Select the following output definitions from the Macro Palette with left mouse click:
+          </li>
+        </ol>
+        <ul>
+          <li>
+            {Feature ID}
+          </li>
+          <li>
+            {Easting}
+          </li>
+          <li>
+            {Northing}
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p style=" margin-left: 20.0px;">
+       Note: Easting refers to the eastward-measured distance (or the x-coordinate) and Northing
+      refers to the northward-measured distance (or the y-coordinate).
+    </p>
+    <ol start="16">
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ol start="16">
+          <li>
+            To use the define Export system select Select <b>Utilities</b> &gt; <b>Export,</b>
+            select your data file and <b>Choose an Export Setup:</b>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p align="center">
+       <img style=" margin-left: 20.0px;" src="../images/90d_appx_export_setup.png">
+    </p>
+    <p style=" margin-left: 20.0px;" align="center">
+       <b>Choose Export Setup</b>
+    </p>
+    <h3 style=" margin-left: 20.0px;" align="left">
+       <b>Also See</b>
+    </h3>
+    <ul>
+      <li style=" list-style-image: none; list-style-type: none;">
+        <ul>
+          <li>
+            <a href="../howto_survey/survey_data_file.html">How to import a survey data file</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+       &nbsp;
+    </p>
+  </body>
+</html>

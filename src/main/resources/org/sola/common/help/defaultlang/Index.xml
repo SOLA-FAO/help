@@ -1,35 +1,163 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE index
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+                       "http://java.sun.com/products/javahelp/index_2_0.dtd">
 
-<index version="1.0">
-	<indexitem target="colors" text="Color View"/>
-	<indexitem target="apply_colors" text="applying colors"/>
-	<indexitem target="text_styles" text="bolding text"/>
-	<indexitem target="change_fonts" text="changing fonts"/>
-	<indexitem target="clear_text" text="clearing text"/>
-	<indexitem target="apply_colors" text="colors, applying"/>
-	<indexitem target="enter_text" text="entering text"/>
-	<indexitem target="change_fonts" text="fonts, changing"/>
-	<indexitem target="online_help" text="help, online"/>
-	<indexitem target="overview" text="introduction"/>
-	<indexitem target="text_styles" text="italicizing text"/>
-	<indexitem target="online_help" text="online help"/>
-	<indexitem target="overview" text="overview"/>
-	<indexitem target="switch_views" text="switching views"/>
-	<indexitem text="text">
-		<indexitem target="text_styles" text="bolding"/>
-		<indexitem target="clear_text" text="clearing"/>
-		<indexitem target="apply_colors" text="colors, applying"/>
-		<indexitem target="enter_text" text="entering"/>
-		<indexitem target="change_fonts" text="fonts, changing"/>
-		<indexitem target="text_styles" text="italicizing"/>
+<index version="2.0">
+	<indexitem text="Agents">
+		<indexitem text="Add or edit agents and banks" target="add_agent_bank" />
 	</indexitem>
-	<indexitem target="typefaces" text="Typeface View"/>
-	<indexitem text="views">
-		<indexitem target="colors" text="Color"/>
-		<indexitem target="switch_views" text="switching"/>
-		<indexitem target="typefaces" text="Typeface"/>
+	<indexitem text="Applications">
+		<indexitem text="About applications" target="app_lifecycle" />
+		<indexitem text="Add a location to an application" target="add_location" />
+		<indexitem text="Assign an application" target="assign_application" />
+		<indexitem text="Calculate application fees" target="calculate_fees" />
+		<indexitem text="Cancel, withdraw or lapse an application" target="cancel_application" />
+		<indexitem text="Edit an application" target="edit_application" />
+		<indexitem text="Lodge and process a land registration application" target="lodge_land_reg_application" />
+		<indexitem text="Lodge a new application" target="lodge_new_application" />
+		<indexitem text="Search for an application" target="application_search" />
+		<indexitem text="Unassign an application" target="unassign_application" />
+		<indexitem text="View application details" target="application_details" />
+		<indexitem text="View the lodgement report" target="view_lodgment_report" />
+	</indexitem>
+	<indexitem text="Business Rules">
+		<indexitem text="About business rules" target="business_rules" />
+		<indexitem text="Registry business rules" target="app_business_rules" />
+	</indexitem>
+	<indexitem text="Cadastre">
+		<indexitem text="Add a plan image for digitizing" target="digitize_plan_image" />
+		<indexitem text="Add new parcels to the map" target="change_cadastre" />
+		<indexitem text="Approve plan" target="change_cadastre_approve" />
+		<indexitem text="Cancel changes to the map" target="redefine_cadastre_cancel" />
+		<indexitem text="Create a new parcel" target="change_cadastre_new_parcels" />
+		<indexitem text="Create parcel with irregular boundary" target="change_cadastre_irreg_boundary" />
+		<indexitem text="Digitize a plan image" target="change_cadastre_heads_up_capture" />
+		<indexitem text="Edit existing nodes" target="redefine_cadastre_nodes" />
+		<indexitem text="Edit existing parcel boundaries" target="redefine_cadastre_boundaries" />
+		<indexitem text="Edit existing parcels" target="redefine_cadastre" />
+		<indexitem text="Enter survey points" target="change_cadastre_survey_points" />
+		<indexitem text="Import a Survey Data File" target="survey_data_file" />
+		<indexitem text="Record a plan" target="survey_record_plan" />
+		<indexitem text="Redefine the cadastre" target="survey_redefine_cadastre" />
+		<indexitem text="Select target parcels" target="change_cadastre_target_parcels" />
+		<indexitem text="Trimble Pathfinder export for SOLA Registry" target="app_trimble_export" />
+	</indexitem>
+	<indexitem text="Caveat">
+		<indexitem text="Register caveat" target="caveat_record" />
+		<indexitem text="Vary caveat" target="caveat_change" />
+		<indexitem text="Withdraw caveat" target="caveat_cancel" />
+	</indexitem>
+	<indexitem text="Documents">
+		<indexitem text="Add a document to an application" target="add_doc_to_application" />
+		<indexitem text="Add or update a file attachment on an existing document" target="update_attachment" />
+		<indexitem text="Attach a file to a new document" target="attach_file" />
+		<indexitem text="View document details" target="document_details" />
+		<indexitem text="Link power of attorney and standard documents" target="link_poa" />
+		<indexitem text="Register a document" target="document_registration" />
+		<indexitem text="Search for a document" target="document_search" />
+		<indexitem text="Types of document" target="documents" />
+	</indexitem>
+	<indexitem text="Easement">
+		<indexitem text="Cancel easement" target="easement_cancel" />
+		<indexitem text="Register easement" target="easement_record" />
+		<indexitem text="Vary easement" target="easement_change" />
+	</indexitem>
+	<indexitem text="Lease">
+		<indexitem text="View lease details" target="lease_rrr" />
+		<indexitem text="Register lease" target="lease_record" />
+		<indexitem text="Terminate lease" target="lease_cancel" />
+		<indexitem text="Vary lease" target="lease_change" />
+	</indexitem>
+	<indexitem text="License">
+		<indexitem text="Software license" target="licensing" />
+	</indexitem>
+	<indexitem text="Map">
+		<indexitem text="Exporting from the map" target="map_kml_export" />
+		<indexitem text="Map layers" target="map_layers" />
+		<indexitem text="Measure distances on the map" target="map_measure_tool" />
+		<indexitem text="Navigate the map" target="map_scale_location" />
+		<indexitem text="Obtain information from the map" target="information_tool" />
+		<indexitem text="Print the map" target="map_print" />
+		<indexitem text="Search the map" target="map_find" />
+		<indexitem text="Tools provided by the map" target="map_tools" />
+		<indexitem text="Viewing the map" target="map_viewer" />
+	</indexitem>
+	<indexitem text="Mortgage">
+		<indexitem text="Discharge mortgage" target="mortgage_cancel" />
+		<indexitem text="View mortgage details" target="mortgage_rrr" />
+		<indexitem text="Register mortgage" target="mortgage_record" />
+		<indexitem text="Vary mortgage" target="mortgage_change" />
+	</indexitem>
+	<indexitem text="Ownership">
+		<indexitem text="View ownership details" target="ownership_rrr" />
+		<indexitem text="Record ownership" target="ownership_record" />
+		<indexitem text="Transfer" target="ownership_transfer" />
+	</indexitem>
+	<indexitem text="Party">
+		<indexitem text="Search for a party" target="party_search" />
+		<indexitem text="View party details" target="party_details" />
+	</indexitem>
+	<indexitem text="Power of Attorney">
+		<indexitem text="Cancel power of attorney" target="cancel_poa" />
+		<indexitem text="Register power of attorney" target="register_poa" />
+		<indexitem text="Search for a power of attorney" target="document_search_poa" />
+	</indexitem>
+	<indexitem text="Prints">
+		<indexitem text="Create a cadastre print" target="cadastre_print" />
+		<indexitem text="Perform a title search" target="title_search" />
+		<indexitem text="Print a document copy" target="document_copy" />
+	</indexitem>
+	<indexitem text="Property">
+		<indexitem text="Cancel titles and create new titles" target="cancel_create_titles" />
+		<indexitem text="Change the type of estate" target="change_estate" />
+		<indexitem text="Convert a paper title" target="convert_paper_title" />
+		<indexitem text="Parent property wizard" target="parent_prop_wizard" />
+		<indexitem text="Search for a property" target="property_search" />
+		<indexitem text="Verify property details" target="verify_property_details" />
+		<indexitem text="View property details" target="property_details" />
+	</indexitem>
+	<indexitem text="Release Notes">
+		<indexitem text="Release v1503a" target="release_1503a" />
+	</indexitem>
+	<indexitem text="Rights, Restrictions and Responsibilities">
+		<indexitem text="Cancel a right or restriction" target="general_rights_cancel" />
+		<indexitem text="Export rights" target="rights_export" />
+		<indexitem text="Register right or restriction" target="general_rights_record" />
+		<indexitem text="View details for rightholder RRR" target="rightholder_rrr" />
+		<indexitem text="View details for simple RRR" target="simple_rrr" />
+		<indexitem text="Types of RRR" target="rrr" />
+		<indexitem text="Vary right or restriction" target="general_rights_change" />
+		<indexitem text="View rights and restrictions for a property" target="property_details_rrr" />
+	</indexitem>
+	<indexitem text="Security">
+		<indexitem text="Register as a notifiable person" target="person_relationship" />
+		<indexitem text="Secure a data record" target="secure_data_record" />
+	</indexitem>
+	<indexitem text="Services">
+		<indexitem text="About services" target="services" />
+		<indexitem text="Registration services" target="reg_services" />
+		<indexitem text="Service lifecyle" target="service_lifecycle" />
+		<indexitem text="Supporting services" target="support_services" />
+		<indexitem text="Survey services" target="survey_services" />
+	</indexitem>
+	<indexitem text="SOLA Registry Desktop">
+		<indexitem text="Change the display language" target="change_language" />
+		<indexitem text="Change your password" target="change_password" />
+		<indexitem text="Concepts" target="concepts_intro" />
+		<indexitem text="Features" target="features" />
+		<indexitem text="Log in" target="login" />
+		<indexitem text="Uninstall SOLA Registry" target="uninstall" />
+		<indexitem text="Using this help file" target="search_help" />
+	</indexitem>
+	<indexitem text="Standard Documents">
+		<indexitem text="Register standard documents" target="register_standard_doc" />
+		<indexitem text="Withdraw Standard Document" target="cancel_standard_doc" />
+	</indexitem>
+	<indexitem text="Troubleshooting">
+		<indexitem text="Logging" target="logging" />
+	</indexitem>
+	<indexitem text="User">
+		<indexitem text="View user profile" target="user_profile" />
+		<indexitem text="View your dashboard" target="dashboard" />
 	</indexitem>
 </index>

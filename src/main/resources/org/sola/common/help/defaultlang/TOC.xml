@@ -1,59 +1,154 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE toc
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
 
-<toc version="1.0">
-    <tocitem image="toplevelfolder" text="SOLA Desktop Help">
-        <tocitem image="topic" target="overview" text="Overview"/>
-        <tocitem image="topic" target="license" text="Licensing"/>
-        <tocitem image="category" text="SOLA Screens">
-            <tocitem image="topic" target="dashboard_and_main_menu" text="Dashboard and Main Menu"/>
-            <tocitem image="topic" target="map_viewer" text="SOLA Map Viewer"/>
-            <tocitem image="topic" target="application_search" text="Application Search"/>
-            <tocitem image="topic" target="application_details" text="Application Details">
-                <tocitem image="topic" target="application_lifecycle" text="Application Lifecycle"/>
-                <tocitem image="topic" target="service_lifecycle" text="Service Lifecycle"/>
-            </tocitem>
-            <tocitem image="topic" target="property_details" text="Property Details">
-                <tocitem image="topic" target="linkProperty" text="Linking property"/>
-            </tocitem>
-            <tocitem image="topic" target="cadastre_change" text="Cadastre Change"/>
-            <tocitem image="topic" target="redefine_cadastre" text="Redefine Cadastre"/>
-            <tocitem image="topic" target="propertySearch" text="Property search"/>
-            <tocitem image="topic" target="personSearch" text="Person search"/> 
-            <tocitem image="topic" target="person" text="Person details"/> 
-            <tocitem image="topic" target="documentSearch" text="Document search"/> 
-            <tocitem image="topic" target="transactionedDocument" text="Document registration"/> 
-        </tocitem>	
-        <tocitem image="category" text="How to">
-            <tocitem image="topic" target="change_language" text="Change Language"/>
-            <tocitem image="topic" target="lodge_new_application" text="Lodge a New Application"/>
-            <tocitem image="topic" target="edit_an_application" text="Edit an Application"/>
-            <tocitem image="topic" target="assign_an_application" text="Assign an Application"/>
-            <tocitem image="topic" target="unassign_an_application" text="Un-assign an Application"/>
-            <tocitem image="topic" target="add_document" text="Add Document"/>	
-            <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
-            <tocitem image="topic" target="calculate_fees" text="Calculate Fees"/>
-            <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
-            <tocitem image="topic" target="cancel_withdraw_lapse_application" text="Cancel Withdraw Lapse an Application"/>
-            <tocitem image="topic" target="add_location" text="Add Location for Application"/>
-            <tocitem image="topic" target="add_ownership_details" text="Add Ownership Details to a Property"/>
-            <tocitem image="topic" target="share" text="Create share"/>
-            <tocitem image="topic" target="add_simple_right" text="Create generic right"/>
-            <tocitem image="topic" target="add_mortgage" text="Add Mortgage Details to a Property"/>
-            <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
-            <tocitem image="topic" target="perform_redefine_cadastre" text="Perform a Redefinition of Cadastre"/> 
-            <tocitem image="topic" target="change_boundary" text="Change Boundary"/>
-            <tocitem image="topic" target="sys_reg_rights_claim" text="Systematic Registration Rights Claim"/>
-            <tocitem image="topic" target="sys_reg_record_objections" text="Systematic Registration Record Objections"/>
-            <tocitem image="topic" target="sys_reg_record_resolutions" text="Systematic Registration Record Dispute Resolution"/>
-            <tocitem image="topic" target="sys_reg_public_disp_listing" text="Prepare Public Display Listings"/>
-            <tocitem image="topic" target="sys_reg_public_disp_plots" text="Prepare Public Display Plots"/>
-            <tocitem image="topic" target="sys_reg_certificates" text="Prepare Registration Certificates"/>
-            <tocitem image="topic" target="sys_reg_status_report" text="Prepare Status Work Reports"/>
-        </tocitem>
-
-        <tocitem image="topic" target="issues" text="Known Issues"/>			
-    </tocitem>
+<toc version="2.0">
+	<tocitem text="Registry Desktop Help">
+		<tocitem text="About this Guide" target="about" />
+		<tocitem text="License" target="licensing" />
+		<tocitem text="Acknowledgements" target="acknowledgements" />
+		<tocitem text="Using this help file" target="search_help" />
+		<tocitem text="Uninstall Registry" target="uninstall" />
+		<tocitem text="Overview" target="sola_overview">
+			<tocitem text="Concepts" target="concepts_intro" />
+			<tocitem text="Applications" target="app_lifecycle" />
+			<tocitem text="Services" target="services">
+				<tocitem text="Registration Services" target="reg_services" />
+				<tocitem text="Survey Services" target="survey_services" />
+				<tocitem text="Supporting Services" target="support_services" />
+				<tocitem text="Service Lifecycle" target="service_lifecycle" />
+			</tocitem>
+			<tocitem text="Rights, Restrictions and Responsibilities" target="rrr" />
+			<tocitem text="Documents" target="documents" />
+			<tocitem text="Business Rules" target="business_rules" />
+		</tocitem>
+		<tocitem text="Registry Desktop Screens">
+			<tocitem text="Dashboard and Main Menu" target="dashboard" />
+			<tocitem text="SOLA Map Viewer" target="map_viewer">
+				<tocitem text="Map Tools" target="map_tools" />
+				<tocitem text="Map Scale and Location" target="map_scale_location" />
+				<tocitem text="Layers" target="map_layers" />
+				<tocitem text="Find" target="map_find" />
+				<tocitem text="Information Tool" target="information_tool" />
+				<tocitem text="Print Tool" target="map_print" />
+				<tocitem text="Export to KML Tool" target="map_kml_export" />
+			</tocitem>
+			<tocitem text="Application Search" target="application_search" />
+			<tocitem text="Application Details" target="application_details" />
+			<tocitem text="Property Search" target="property_search" />
+			<tocitem text="Property Details" target="property_details">
+				<tocitem text="Right and Restriction Details" target="property_details_rrr" />
+			</tocitem>
+			<tocitem text="Simple RRR" target="simple_rrr" />
+			<tocitem text="Rightholder RRR" target="rightholder_rrr" />
+			<tocitem text="Ownership RRR" target="ownership_rrr" />
+			<tocitem text="Lease RRR" target="lease_rrr" />
+			<tocitem text="Mortgage RRR" target="mortgage_rrr" />
+			<tocitem text="Document Search" target="document_search">
+				<tocitem text="Power of Attorney Search" target="document_search_poa" />
+			</tocitem>
+			<tocitem text="Document Details" target="document_details" />
+			<tocitem text="Party Search" target="party_search" />
+			<tocitem text="Party Details" target="party_details" />
+			<tocitem text="User Profile" target="user_profile" />
+			<tocitem text="Rights Export" target="rights_export" />
+			<tocitem text="Document Registration" target="document_registration" />
+			<tocitem text="Person Relationship" target="person_relationship" />
+			<tocitem text="Change to Cadastre" target="change_cadastre">
+				<tocitem text="Target Parcels" target="change_cadastre_target_parcels" />
+				<tocitem text="Survey Points" target="change_cadastre_survey_points" />
+				<tocitem text="Heads up Digitizing" target="change_cadastre_heads_up_capture" />
+				<tocitem text="Creating New Parcels" target="change_cadastre_new_parcels" />
+				<tocitem text="Creating Parcels with Irregular Boundaries" target="change_cadastre_irreg_boundary" />
+				<tocitem text="Approving a Plan" target="change_cadastre_approve" />
+			</tocitem>
+			<tocitem text="Redefine Cadastre" target="redefine_cadastre">
+				<tocitem text="Nodes" target="redefine_cadastre_nodes" />
+				<tocitem text="Boundaries" target="redefine_cadastre_boundaries" />
+				<tocitem text="Cancelling Redefine Cadastre" target="redefine_cadastre_cancel" />
+			</tocitem>
+		</tocitem>
+		<tocitem text="General How To">
+			<tocitem text="Log In" target="login" />
+			<tocitem text="Change Language" target="change_language" />
+			<tocitem text="Change your Password" target="change_password" />
+			<tocitem text="Lodge a New Application" target="lodge_new_application" />
+			<tocitem text="Edit an application" target="edit_application" />
+			<tocitem text="Assign an Application" target="assign_application" />
+			<tocitem text="Unassign an Application" target="unassign_application" />
+			<tocitem text="Calculate Fees" target="calculate_fees" />
+			<tocitem text="Verify Property Details" target="verify_property_details" />
+			<tocitem text="Cancel, Withdraw or Lapse an Application" target="cancel_application" />
+			<tocitem text="Add Location for Application" target="add_location" />
+			<tocitem text="Add or Edit Agents and Banks" target="add_agent_bank" />
+			<tocitem text="Perform a Title Search" target="title_search" />
+			<tocitem text="Create a Cadastre Print" target="cadastre_print" />
+			<tocitem text="Print a Document Copy" target="document_copy" />
+			<tocitem text="View the Lodgement Report" target="view_lodgment_report" />
+			<tocitem text="Secure a data record" target="secure_data_record" />
+		</tocitem>
+		<tocitem text="Documents How To">
+			<tocitem text="Add a Document to an Application" target="add_doc_to_application" />
+			<tocitem text="Attach a File to a New Document" target="attach_file" />
+			<tocitem text="Add or Update a File Attachment to an Existing Document" target="update_attachment" />
+			<tocitem text="Link Power of Attorney and Standard Documents" target="link_poa" />
+			<tocitem text="Register Power of Attorney" target="register_poa" />
+			<tocitem text="Cancel Power of Attorney" target="cancel_poa" />
+			<tocitem text="Register Standard Documents" target="register_standard_doc" />
+			<tocitem text="Withdraw Standard Document" target="cancel_standard_doc" />
+		</tocitem>
+		<tocitem text="Land Registration How To">
+			<tocitem text="Lodge and Process a Land Registration Application" target="lodge_land_reg_application" />
+			<tocitem text="Ownership">
+				<tocitem text="Record Ownership" target="ownership_record" />
+				<tocitem text="Transfer" target="ownership_transfer" />
+			</tocitem>
+			<tocitem text="Change the Type of Estate" target="change_estate" />
+			<tocitem text="Cancel Titles and Create New Titles" target="cancel_create_titles" />
+			<tocitem text="Mortgage">
+				<tocitem text="Register Mortgage" target="mortgage_record" />
+				<tocitem text="Vary Mortgage" target="mortgage_change" />
+				<tocitem text="Discharge Mortgage" target="mortgage_cancel" />
+			</tocitem>
+			<tocitem text="Lease">
+				<tocitem text="Register Lease" target="lease_record" />
+				<tocitem text="Vary Lease" target="lease_change" />
+				<tocitem text="Terminate Lease" target="lease_cancel" />
+			</tocitem>
+			<tocitem text="Caveat">
+				<tocitem text="Register Caveat" target="caveat_record" />
+				<tocitem text="Vary caveat" target="caveat_change" />
+				<tocitem text="Withdraw Caveat" target="caveat_cancel" />
+			</tocitem>
+			<tocitem text="Easement">
+				<tocitem text="Register Easement" target="easement_record" />
+				<tocitem text="Vary Easement" target="easement_change" />
+				<tocitem text="Cancel Easement" target="easement_cancel" />
+			</tocitem>
+			<tocitem text="General Rights and Restrictions">
+				<tocitem text="Register Right or Restriction" target="general_rights_record" />
+				<tocitem text="Vary Right or Restriction" target="general_rights_change" />
+				<tocitem text="Cancel a Right or Restriction" target="general_rights_cancel" />
+			</tocitem>
+			<tocitem text="Convert a Paper Title" target="convert_paper_title" />
+			<tocitem text="Parent Property Wizard" target="parent_prop_wizard" />
+		</tocitem>
+		<tocitem text="Survey How To">
+			<tocitem text="Record a Plan" target="survey_record_plan" />
+			<tocitem text="Redefine the Cadastre" target="survey_redefine_cadastre" />
+			<tocitem text="Add a Plan Image for Digitizing" target="digitize_plan_image" />
+			<tocitem text="Import a Survey Data File" target="survey_data_file" />
+		</tocitem>
+		<tocitem text="Troubleshooting">
+			<tocitem text="Logging" target="logging" />
+		</tocitem>
+		<tocitem text="Release Notes" target="release_notes_overview">
+			<tocitem text="Release v1503a" target="release_1503a" />
+		</tocitem>
+		<tocitem text="Appendix">
+			<tocitem text="Appendix 1 - Registry Business Rules" target="app_business_rules" />
+			<tocitem text="Appendix 2 - Features of Registry" target="features" />
+			<tocitem text="Appendix 3 - Trimble Pathfinder Software Configuration for SOLA Export CSV File" target="app_trimble_export" />
+		</tocitem>
+	</tocitem>
 </toc>

@@ -1,0 +1,346 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
+    <meta content="Helen" name="generator">
+    <title>Release 1503a</title>
+  </head>
+  <body>
+    <h2 style=" margin-left: 20.0px;">
+       Release 1503a
+    </h2>
+    <p style=" margin-left: 20.0px;">
+       This section summarises the changes made to Registry or it’s configuration for Release
+      1503a. Further details for each change can be found in the he <a href=
+      "https://flossola.lighthouseapp.com/projects/89377-sola/overview">SOLA Lighthouse
+      Project</a>&nbsp;using the Lighthouse Ticket # as reference.
+    </p>
+    <table style=" margin-left: 20.0px;" border="0" cellpadding="2" cellspacing="2">
+      <thead>
+      <tr>
+        <td valign="top" width="10%">
+          <p>
+             <b>Ticket #</b>
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             <b>Title</b>
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             <b>Summary</b>
+          </p>
+        </td>
+      </tr>
+      </thead>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             218
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Service side caching of reference codes
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             New Cache EJB added to cache reference codes, settings and relatively static data
+            values on the server. The cache is configured to refresh automatically once a day.
+            &nbsp;&nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             399
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Create database backup scripts for Linux
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Bash shell scripts added to the Registry database_sola project to support regular
+            automated backups of production Registry databases.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             402
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Implement Disaggregated Ownership Gender Report
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Report added to show property ownership by gender.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             410
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Password encryption fails to correctly encrypt some words
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Corrected minor issue password hash algorithm to ensure it matches the hash generated
+            by Glassfish.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             418
+          </p>
+          <p align="center">
+             &nbsp;
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Email service introduced
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Service to with capability of sending emails was added. &nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             420
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Update the Add Service dialog to use a TreeTable component
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Add Service dialog modified to group and display services using a tree table control.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             421
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Improvements to FormatterFactory and Table Cell Renderers
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             FormatterFactory extended to provide formatting and editing for areas, currency and
+            date fields. Table Cell Renderers updated to use FormatterFactory for consistent
+            formatting of data.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             422
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Refactor method used to launch application services
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Modified the service launch process so that it can be controlled through database
+            configuration.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             423
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Applicant should be set as the owner of a property by default
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             When a new property is created the applicant is automatically set as the owner for the
+            new property. The user can edit the ownership details if required.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             426
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Add Road Centreline and Locality into Waiheke dataset
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Road centreline and street address data added to the demonstration test dataset.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             427
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Support retrieval of arrays from the database
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Updated the Repository layer to support retrieval of arrays from the database.
+          </p>
+          <p>
+             &nbsp;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             435
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Notification Service (incl. Gender Safeguards)
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Added Record Person Relationship service and supporting forms
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             448
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             SOLA Desktop re-branding
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Renamed SOLA Desktop to Registry Desktop. Updated colour scheme of Registry Desktop to
+            reflect&nbsp; Voluntary Guideline colours.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             453
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Implement support for Security Classifications for Family Safeguard
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Added ability to set security classifications for individual data records so that only
+            authorized personnel can view sensitive records
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             455
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Service to request the obscuration of party data
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Added Privacy Request service
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             456
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Disable Systematic Registration features in SOLA Registry
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Disabled all Systematic Registration menus so these are no longer available from
+            Registry.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="10%">
+          <p align="center">
+             457
+          </p>
+        </td>
+        <td valign="top" width="32%">
+          <p>
+             Adjust system.language table to introduce text direction attribute
+          </p>
+        </td>
+        <td valign="top" width="57%">
+          <p>
+             Added attribute to system.language table to indicate if the language is left to right
+            or right to left.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

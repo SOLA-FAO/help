@@ -1,66 +1,292 @@
-<?xml version='1.0' encoding='ISO-8859-1' ?>
-<!DOCTYPE map
-  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
-         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/map_2_0.dtd">
 
 <map version="1.0">
-
-<!-- Image Files -->
-  
-    <mapID target="toplevelfolder" url="images/toplevel.gif" />
-    <mapID target="category" url="images/category.gif" />
-    <mapID target="topic" url="images/topic.gif" />
-
-<!-- Topics -->
-
-    <mapID target="overview" url="MainTopics/sola_overview.html" />
-    <mapID target="license" url="MainTopics/licensing.html" />
-    <mapID target="issues" url="MainTopics/known_issues.html" />
-    <mapID target="1_blk_overview" url="MainTopics/sola_overview.html" />
-    
-    
-    <mapID target="dashboard_and_main_menu" url="howtotopics/dashboard_and_main_menu.html" />
-    <mapID target="map_viewer" url="howtotopics/map_viewer.html" />
-    <mapID target="application_search" url="howtotopics/application_search.html" />
-    <mapID target="application_details" url="howtotopics/application_details.html" />  
-    <mapID target="application_lifecycle" url="howtotopics/application_lifecycle.html" /> 
-    <mapID target="service_lifecycle" url="howtotopics/service_lifecycle.html" /> 
-    <mapID target="property_details" url="howtotopics/property_details.html" /> 
-    <mapID target="cadastre_change" url="howtotopics/cadastre_change.html" />
-    <mapID target="redefine_cadastre" url="howtotopics/redefine_cadastre.html" />
-    <mapID target="linkProperty" url="howtotopics/linkProperty.html" />
-    <mapID target="share" url="howtotopics/share.html" />
-    
-<!--Reference to the how tos-->
-    <mapID target="change_language" url="howtotopics/change_language.html" />
-    <mapID target="lodge_new_application" url="howtotopics/lodge_new_application.html" />
-    <mapID target="edit_an_application" url="howtotopics/edit_an_application.html" />
-    <mapID target="assign_an_application" url="howtotopics/assign_an_application.html" />
-    <mapID target="unassign_an_application" url="howtotopics/unassign_an_application.html" />
-    <mapID target="add_document" url="howtotopics/add_document.html" />
-    <mapID target="attach_digital_document" url="howtotopics/attach_digital_document.html" />
-    <mapID target="calculate_fees" url="howtotopics/calculate_fees.html" />
-    <mapID target="verify_property_details" url="howtotopics/verify_property_details.html" />
-    <mapID target="cancel_withdraw_lapse_application" url="howtotopics/cancel_withdraw_lapse_application.html" />
-    <mapID target="add_location" url="howtotopics/add_location.html" />
-    <mapID target="add_ownership_details" url="howtotopics/add_ownership_details.html" />
-    <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
-    <mapID target="add_simple_right" url="howtotopics/simpleRight.html" />
-    <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
-    <mapID target="perform_redefine_cadastre" url="howtotopics/perform_redefine_cadastre.html" />
-    <mapID target="change_boundary" url="howtotopics/change_boundary.html" />
-    <mapID target="propertySearch" url="howtotopics/propertySearch.html" />
-    <mapID target="person" url="howtotopics/person.html" />
-    <mapID target="personSearch" url="howtotopics/personSearch.html" />
-    <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
-    <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
-    <mapID target="1_blk_importspatialpanel" url="howtotopics/1_blk_importspatialpanel.html" />
-    <mapID target="1_blk_importsourcepanel" url="howtotopics/1_blk_importsourcepanel.html" />
-    <mapID target="sys_reg_rights_claim" url="howtotopics/sys_reg_rights_claim.html" />
-    <mapID target="sys_reg_record_objections" url="howtotopics/sys_reg_record_objections.html" />
-    <mapID target="sys_reg_record_resolutions" url="howtotopics/sys_reg_record_resolutions.html" />
-    <mapID target="sys_reg_public_disp_listing" url="howtotopics/sys_reg_public_disp_listing.html" />
-    <mapID target="sys_reg_public_disp_plots" url="howtotopics/sys_reg_public_disp_plots.html" />
-    <mapID target="sys_reg_certificates" url="howtotopics/sys_reg_certificates.html" />
-    <mapID target="sys_reg_status_report" url="howtotopics/sys_reg_status_report.html" />
- </map>
+	<mapID target="app_business_rules" url="appendix/app_business_rules.html"/>
+	<mapID target="app_trimble_export" url="appendix/app_trimble_export.html"/>
+	<mapID target="app_lifecycle" url="concepts/app_lifecycle.html"/>
+	<mapID target="business_rules" url="concepts/business_rules.html"/>
+	<mapID target="concepts_intro" url="concepts/concepts_intro.html"/>
+	<mapID target="documents" url="concepts/documents.html"/>
+	<mapID target="reg_services" url="concepts/reg_services.html"/>
+	<mapID target="rrr" url="concepts/rrr.html"/>
+	<mapID target="services" url="concepts/services.html"/>
+	<mapID target="service_lifecycle" url="concepts/service_lifecycle.html"/>
+	<mapID target="support_services" url="concepts/support_services.html"/>
+	<mapID target="survey_services" url="concepts/survey_services.html"/>
+	<mapID target="add_doc_to_application" url="howto_documents/add_doc_to_application.html"/>
+	<mapID target="attach_file" url="howto_documents/attach_file.html"/>
+	<mapID target="cancel_poa" url="howto_documents/cancel_poa.html"/>
+	<mapID target="cancel_standard_doc" url="howto_documents/cancel_standard_doc.html"/>
+	<mapID target="link_poa" url="howto_documents/link_poa.html"/>
+	<mapID target="register_poa" url="howto_documents/register_poa.html"/>
+	<mapID target="register_standard_doc" url="howto_documents/register_standard_doc.html"/>
+	<mapID target="update_attachment" url="howto_documents/update_attachment.html"/>
+	<mapID target="add_agent_bank" url="howto_general/add_agent_bank.html"/>
+	<mapID target="add_location" url="howto_general/add_location.html"/>
+	<mapID target="assign_application" url="howto_general/assign_application.html"/>
+	<mapID target="calculate_fees" url="howto_general/calculate_fees.html"/>
+	<mapID target="cancel_application" url="howto_general/cancel_application.html"/>
+	<mapID target="change_language" url="howto_general/change_language.html"/>
+	<mapID target="change_password" url="howto_general/change_password.html"/>
+	<mapID target="edit_application" url="howto_general/edit_application.html"/>
+	<mapID target="lodge_new_application" url="howto_general/lodge_new_application.html"/>
+	<mapID target="login" url="howto_general/login.html"/>
+	<mapID target="title_search" url="howto_general/title_search.html"/>
+	<mapID target="unassign_application" url="howto_general/unassign_application.html"/>
+	<mapID target="verify_property_details" url="howto_general/verify_property_details.html"/>
+	<mapID target="view_lodgment_report" url="howto_general/view_lodgment_report.html"/>
+	<mapID target="cancel_create_titles" url="howto_landreg/cancel_create_titles.html"/>
+	<mapID target="caveat_cancel" url="howto_landreg/caveat_cancel.html"/>
+	<mapID target="caveat_change" url="howto_landreg/caveat_change.html"/>
+	<mapID target="caveat_record" url="howto_landreg/caveat_record.html"/>
+	<mapID target="convert_paper_title" url="howto_landreg/convert_paper_title.html"/>
+	<mapID target="lease_cancel" url="howto_landreg/lease_cancel.html"/>
+	<mapID target="lease_change" url="howto_landreg/lease_change.html"/>
+	<mapID target="lease_record" url="howto_landreg/lease_record.html"/>
+	<mapID target="lodge_land_reg_application" url="howto_landreg/lodge_land_reg_application.html"/>
+	<mapID target="mortgage_cancel" url="howto_landreg/mortgage_cancel.html"/>
+	<mapID target="mortgage_change" url="howto_landreg/mortgage_change.html"/>
+	<mapID target="mortgage_record" url="howto_landreg/mortgage_record.html"/>
+	<mapID target="ownership_record" url="howto_landreg/ownership_record.html"/>
+	<mapID target="ownership_transfer" url="howto_landreg/ownership_transfer.html"/>
+	<mapID target="parent_prop_wizard" url="howto_landreg/parent_prop_wizard.html"/>
+	<mapID target="registry_correction" url="howto_landreg/registry_correction.html"/>
+	<mapID target="registry_correction_cancel" url="howto_landreg/registry_correction_cancel.html"/>
+	<mapID target="digitize_plan_image" url="howto_survey/digitize_plan_image.html"/>
+	<mapID target="survey_redefine_cadastre" url="howto_survey/survey_redefine_cadastre.html"/>
+	<mapID target="survey_data_file" url="howto_survey/survey_data_file.html"/>
+	<mapID target="survey_record_plan" url="howto_survey/survey_record_plan.html"/>
+	<mapID target="00b_service_lifecycle" url="images/00b_service_lifecycle.png"/>
+	<mapID target="00c_business_rule_results" url="images/00c_business_rule_results.png"/>
+	<mapID target="00_app_lifecycle" url="images/00_app_lifecycle.png"/>
+	<mapID target="01_dashboard" url="images/01_dashboard.png"/>
+	<mapID target="10a_map_layers_tab" url="images/10a_map_layers_tab.PNG"/>
+	<mapID target="10b_map_find_tab" url="images/10b_map_find_tab.png"/>
+	<mapID target="10c_orthophoto_layer" url="images/10c_orthophoto_layer.png"/>
+	<mapID target="10d_map_information_tool" url="images/10d_map_information_tool.png"/>
+	<mapID target="10e_map_print_dialog" url="images/10e_map_print_dialog.png"/>
+	<mapID target="10f_map_printout" url="images/10f_map_printout.png"/>
+	<mapID target="10g_kml_export" url="images/10g_kml_export.png"/>
+	<mapID target="10_map_viewer" url="images/10_map_viewer.png"/>
+	<mapID target="17_application_search" url="images/17_application_search.png"/>
+	<mapID target="18_application_details" url="images/18_application_details.png"/>
+	<mapID target="20_property_search" url="images/20_property_search.png"/>
+	<mapID target="21a_property_details_rrr_tab" url="images/21a_property_details_rrr_tab.png"/>
+	<mapID target="21_property_details" url="images/21_property_details.png"/>
+	<mapID target="22a_power_of_attorney_search" url="images/22a_power_of_attorney_search.png"/>
+	<mapID target="22_document_search" url="images/22_document_search.png"/>
+	<mapID target="23a_survey_points" url="images/23a_survey_points.png"/>
+	<mapID target="23b_linked_boundary_points" url="images/23b_linked_boundary_points.png"/>
+	<mapID target="23c_new_parcels" url="images/23c_new_parcels.png"/>
+	<mapID target="23d_parcel_list" url="images/23d_parcel_list.png"/>
+	<mapID target="23e_select_boundary_box" url="images/23e_select_boundary_box.png"/>
+	<mapID target="23f_irregular_parcel_boundary" url="images/23f_irregular_parcel_boundary.png"/>
+	<mapID target="23g_approved_plan" url="images/23g_approved_plan.png"/>
+	<mapID target="23_cadastre_change" url="images/23_cadastre_change.png"/>
+	<mapID target="24a_add_node" url="images/24a_add_node.png"/>
+	<mapID target="24b_node_coordinate_dialog" url="images/24b_node_coordinate_dialog.png"/>
+	<mapID target="24c_pending_parcels" url="images/24c_pending_parcels.png"/>
+	<mapID target="24d_change_boundary" url="images/24d_change_boundary.png"/>
+	<mapID target="24_redefine_cadastre" url="images/24_redefine_cadastre.png"/>
+	<mapID target="25_party_search" url="images/25_party_search.png"/>
+	<mapID target="26_party_details" url="images/26_party_details.png"/>
+	<mapID target="27_user_profile" url="images/27_user_profile.png"/>
+	<mapID target="28a_poa_details" url="images/28a_poa_details.png"/>
+	<mapID target="28_document_registration" url="images/28_document_registration.png"/>
+	<mapID target="30_password_expired_msg" url="images/30_password_expired_msg.png"/>
+	<mapID target="36a_application_fees" url="images/36a_application_fees.png"/>
+	<mapID target="36b_verify_property" url="images/36b_verify_property.png"/>
+	<mapID target="36c_map_points" url="images/36c_map_points.png"/>
+	<mapID target="36d_lodgement_report_interval" url="images/36d_lodgement_report_interval.png"/>
+	<mapID target="37a_file_browser_local" url="images/37a_file_browser_local.png"/>
+	<mapID target="37b_file_browser_remote" url="images/37b_file_browser_remote.png"/>
+	<mapID target="37d_document_edit" url="images/37d_document_edit.png"/>
+	<mapID target="37_application_documents" url="images/37_application_documents.png"/>
+	<mapID target="42_select_property" url="images/42_select_property.png"/>
+	<mapID target="44c_property_details_rights" url="images/44c_property_details_rights.png"/>
+	<mapID target="50_add_parcel_dialog" url="images/50_add_parcel_dialog.png"/>
+	<mapID target="51a_select_rights" url="images/51a_select_rights.png"/>
+	<mapID target="51_select_property" url="images/51_select_property.png"/>
+	<mapID target="52_application_actions" url="images/52_application_actions.png"/>
+	<mapID target="54_add_image_dialog" url="images/54_add_image_dialog.png"/>
+	<mapID target="56_survey_data_file" url="images/56_survey_data_file.png"/>
+	<mapID target="70a_java_console" url="images/70a_java_console.png"/>
+	<mapID target="70_java_control_panel_advanced_tab" url="images/70_java_control_panel_advanced_tab.png"/>
+	<mapID target="90a_appx_coordsys_export" url="images/90a_appx_coordsys_export.png"/>
+	<mapID target="90b_appx_template_name" url="images/90b_appx_template_name.png"/>
+	<mapID target="90c_appx_template_editor" url="images/90c_appx_template_editor.png"/>
+	<mapID target="90d_appx_export_setup" url="images/90d_appx_export_setup.png"/>
+	<mapID target="90_appx_pathfinder_export" url="images/90_appx_pathfinder_export.png"/>
+	<mapID target="add-node" url="images/icons/add-node.png"/>
+	<mapID target="add" url="images/icons/add.png"/>
+	<mapID target="application-location-add" url="images/icons/application-location-add.png"/>
+	<mapID target="application-location-remove" url="images/icons/application-location-remove.png"/>
+	<mapID target="approve" url="images/icons/approve.png"/>
+	<mapID target="approve1" url="images/icons/approve1.png"/>
+	<mapID target="archive" url="images/icons/archive.png"/>
+	<mapID target="assign-left" url="images/icons/assign-left.png"/>
+	<mapID target="assign" url="images/icons/assign.png"/>
+	<mapID target="ball_green" url="images/icons/ball_green.png"/>
+	<mapID target="ball_red" url="images/icons/ball_red.png"/>
+	<mapID target="bullet_green_alt" url="images/icons/bullet_green_alt.png"/>
+	<mapID target="bullet_red_alt" url="images/icons/bullet_red_alt.png"/>
+	<mapID target="cadastre-boundary-edit" url="images/icons/cadastre-boundary-edit.png"/>
+	<mapID target="cadastre-boundary-select" url="images/icons/cadastre-boundary-select.png"/>
+	<mapID target="cadastre-redefinition-reset" url="images/icons/cadastre-redefinition-reset.png"/>
+	<mapID target="calculate" url="images/icons/calculate.png"/>
+	<mapID target="calculator" url="images/icons/calculator.png"/>
+	<mapID target="calendar" url="images/icons/calendar.png"/>
+	<mapID target="cancel" url="images/icons/cancel.png"/>
+	<mapID target="car-pencil" url="images/icons/car-pencil.png"/>
+	<mapID target="car-plus" url="images/icons/car-plus.png"/>
+	<mapID target="change-node" url="images/icons/change-node.png"/>
+	<mapID target="change-share" url="images/icons/change-share.png"/>
+	<mapID target="confirm" url="images/icons/confirm.png"/>
+	<mapID target="create" url="images/icons/create.png"/>
+	<mapID target="delete_icon" url="images/icons/delete_icon.gif"/>
+	<mapID target="document--pencil - Copy" url="images/icons/document--pencil - Copy.png"/>
+	<mapID target="document--pencil" url="images/icons/document--pencil.png"/>
+	<mapID target="document-link" url="images/icons/document-link.png"/>
+	<mapID target="document-remove" url="images/icons/document-remove.png"/>
+	<mapID target="document-view" url="images/icons/document-view.png"/>
+	<mapID target="down" url="images/icons/down.png"/>
+	<mapID target="draw" url="images/icons/draw.png"/>
+	<mapID target="envelope" url="images/icons/envelope.png"/>
+	<mapID target="eraser" url="images/icons/eraser.png"/>
+	<mapID target="exit" url="images/icons/exit.png"/>
+	<mapID target="export" url="images/icons/export.png"/>
+	<mapID target="export2" url="images/icons/export2.png"/>
+	<mapID target="flag" url="images/icons/flag.png"/>
+	<mapID target="folder-open-document-text" url="images/icons/folder-open-document-text.png"/>
+	<mapID target="folder-open-document" url="images/icons/folder-open-document.png"/>
+	<mapID target="fullextent" url="images/icons/fullextent.png"/>
+	<mapID target="globe-pencil" url="images/icons/globe-pencil.png"/>
+	<mapID target="help" url="images/icons/help.png"/>
+	<mapID target="home-plus" url="images/icons/home-plus.png"/>
+	<mapID target="home" url="images/icons/home.png"/>
+	<mapID target="image-add" url="images/icons/image-add.png"/>
+	<mapID target="image-remove" url="images/icons/image-remove.png"/>
+	<mapID target="information" url="images/icons/information.png"/>
+	<mapID target="key" url="images/icons/key.png"/>
+	<mapID target="key32px" url="images/icons/key32px.png"/>
+	<mapID target="kml-export" url="images/icons/kml-export.png"/>
+	<mapID target="lapse" url="images/icons/lapse.png"/>
+	<mapID target="layer-vector" url="images/icons/layer-vector.png"/>
+	<mapID target="layers-group" url="images/icons/layers-group.png"/>
+	<mapID target="linestring" url="images/icons/linestring.png"/>
+	<mapID target="lock--pencil" url="images/icons/lock--pencil.png"/>
+	<mapID target="lock" url="images/icons/lock.png"/>
+	<mapID target="network" url="images/icons/network.png"/>
+	<mapID target="new-parcel" url="images/icons/new-parcel.png"/>
+	<mapID target="new" url="images/icons/new.png"/>
+	<mapID target="node-linking" url="images/icons/node-linking.png"/>
+	<mapID target="pan" url="images/icons/pan.png"/>
+	<mapID target="paper-clip" url="images/icons/paper-clip.png"/>
+	<mapID target="pencil" url="images/icons/pencil.png"/>
+	<mapID target="point-hide" url="images/icons/point-hide.png"/>
+	<mapID target="point-show" url="images/icons/point-show.png"/>
+	<mapID target="polygon" url="images/icons/polygon.png"/>
+	<mapID target="print" url="images/icons/print.png"/>
+	<mapID target="red_asterisk" url="images/icons/red_asterisk.gif"/>
+	<mapID target="refresh" url="images/icons/refresh.png"/>
+	<mapID target="reject" url="images/icons/reject.png"/>
+	<mapID target="remove-node" url="images/icons/remove-node.png"/>
+	<mapID target="remove" url="images/icons/remove.png"/>
+	<mapID target="requisition" url="images/icons/requisition.png"/>
+	<mapID target="resubmit" url="images/icons/resubmit.png"/>
+	<mapID target="revert" url="images/icons/revert.png"/>
+	<mapID target="right" url="images/icons/right.png"/>
+	<mapID target="ruler" url="images/icons/ruler.png"/>
+	<mapID target="save" url="images/icons/save.png"/>
+	<mapID target="search" url="images/icons/search.png"/>
+	<mapID target="select-parcel" url="images/icons/select-parcel.png"/>
+	<mapID target="selection" url="images/icons/selection.png"/>
+	<mapID target="split" url="images/icons/split.png"/>
+	<mapID target="start" url="images/icons/start.png"/>
+	<mapID target="stop" url="images/icons/stop.png"/>
+	<mapID target="table-pencil" url="images/icons/table-pencil.png"/>
+	<mapID target="toc" url="images/icons/toc.png"/>
+	<mapID target="transaction-save" url="images/icons/transaction-save.png"/>
+	<mapID target="unassign" url="images/icons/unassign.png"/>
+	<mapID target="undo-last-nodelinking" url="images/icons/undo-last-nodelinking.png"/>
+	<mapID target="undo-new-parcelmaking" url="images/icons/undo-new-parcelmaking.png"/>
+	<mapID target="undo" url="images/icons/undo.png"/>
+	<mapID target="up" url="images/icons/up.png"/>
+	<mapID target="users" url="images/icons/users.png"/>
+	<mapID target="validation" url="images/icons/validation.png"/>
+	<mapID target="vary" url="images/icons/vary.png"/>
+	<mapID target="verify" url="images/icons/verify.png"/>
+	<mapID target="view" url="images/icons/view.png"/>
+	<mapID target="water-plus" url="images/icons/water-plus.png"/>
+	<mapID target="withdraw" url="images/icons/withdraw.png"/>
+	<mapID target="zone-select" url="images/icons/zone-select.png"/>
+	<mapID target="zone" url="images/icons/zone.png"/>
+	<mapID target="zoomin" url="images/icons/zoomin.png"/>
+	<mapID target="zoomout" url="images/icons/zoomout.png"/>
+	<mapID target="licensing" url="introduction/licensing.html"/>
+	<mapID target="sola_overview" url="introduction/sola_overview.html"/>
+	<mapID target="application_details" url="screens/application_details.html"/>
+	<mapID target="application_search" url="screens/application_search.html"/>
+	<mapID target="redefine_cadastre" url="screens/redefine_cadastre.html"/>
+	<mapID target="redefine_cadastre_boundaries" url="screens/redefine_cadastre_boundaries.html"/>
+	<mapID target="redefine_cadastre_cancel" url="screens/redefine_cadastre_cancel.html"/>
+	<mapID target="redefine_cadastre_nodes" url="screens/redefine_cadastre_nodes.html"/>
+	<mapID target="dashboard" url="screens/dashboard.html"/>
+	<mapID target="document_registration" url="screens/document_registration.html"/>
+	<mapID target="document_search" url="screens/document_search.html"/>
+	<mapID target="document_search_poa" url="screens/document_search_poa.html"/>
+	<mapID target="information_tool" url="screens/information_tool.html"/>
+	<mapID target="map_find" url="screens/map_find.html"/>
+	<mapID target="map_kml_export" url="screens/map_kml_export.html"/>
+	<mapID target="map_layers" url="screens/map_layers.html"/>
+	<mapID target="map_measure_tool" url="screens/map_measure_tool.html"/>
+	<mapID target="map_print" url="screens/map_print.html"/>
+	<mapID target="map_scale_location" url="screens/map_scale_location.html"/>
+	<mapID target="map_tools" url="screens/map_tools.html"/>
+	<mapID target="map_viewer" url="screens/map_viewer.html"/>
+	<mapID target="party_details" url="screens/party_details.html"/>
+	<mapID target="party_search" url="screens/party_search.html"/>
+	<mapID target="property_details" url="screens/property_details.html"/>
+	<mapID target="property_details_rrr" url="screens/property_details_rrr.html"/>
+	<mapID target="property_search" url="screens/property_search.html"/>
+	<mapID target="change_cadastre" url="screens/change_cadastre.html"/>
+	<mapID target="change_cadastre_approve" url="screens/change_cadastre_approve.html"/>
+	<mapID target="change_cadastre_heads_up_capture" url="screens/change_cadastre_heads_up_capture.html"/>
+	<mapID target="change_cadastre_irreg_boundary" url="screens/change_cadastre_irreg_boundary.html"/>
+	<mapID target="change_cadastre_new_parcels" url="screens/change_cadastre_new_parcels.html"/>
+	<mapID target="change_cadastre_survey_points" url="screens/change_cadastre_survey_points.html"/>
+	<mapID target="change_cadastre_target_parcels" url="screens/change_cadastre_target_parcels.html"/>
+	<mapID target="user_profile" url="screens/user_profile.html"/>
+	<mapID target="acknowledgements" url="introduction/acknowledgements.html"/>
+	<mapID target="search_help" url="howto_general/search_help.html"/>
+	<mapID target="uninstall" url="howto_general/uninstall.html"/>
+	<mapID target="cadastre_print" url="howto_general/cadastre_print.html"/>
+	<mapID target="document_copy" url="howto_general/document_copy.html"/>
+	<mapID target="secure_data_record" url="howto_general/secure_data_record.html"/>
+	<mapID target="change_estate" url="howto_landreg/change_estate.html"/>
+	<mapID target="easement_record" url="howto_landreg/easement_record.html"/>
+	<mapID target="easement_change" url="howto_landreg/easement_change.html"/>
+	<mapID target="easement_cancel" url="howto_landreg/easement_cancel.html"/>
+	<mapID target="general_rights_record" url="howto_landreg/general_rights_record.html"/>
+	<mapID target="general_rights_change" url="howto_landreg/general_rights_change.html"/>
+	<mapID target="general_rights_cancel" url="howto_landreg/general_rights_cancel.html"/>
+	<mapID target="logging" url="troubleshooting/logging.html"/>
+	<mapID target="features" url="appendix/features.html"/>
+	<mapID target="also_see" url="appendix/also_see.html"/>
+	<mapID target="logo_icon_large" url="images/icons/logo_icon_large.png"/>
+	<mapID target="about" url="introduction/about.html"/>
+	<mapID target="simple_rrr" url="screens/simple_rrr.html"/>
+	<mapID target="rightholder_rrr" url="screens/rightholder_rrr.html"/>
+	<mapID target="ownership_rrr" url="screens/ownership_rrr.html"/>
+	<mapID target="lease_rrr" url="screens/lease_rrr.html"/>
+	<mapID target="mortgage_rrr" url="screens/mortgage_rrr.html"/>
+	<mapID target="document_details" url="screens/document_details.html"/>
+	<mapID target="rights_export" url="screens/rights_export.html"/>
+	<mapID target="100_rights_export" url="images/100_rights_export.png"/>
+	<mapID target="105_person_relationship" url="images/105_person_relationship.png"/>
+	<mapID target="person_relationship" url="screens/person_relationship.html"/>
+	<mapID target="release_1503a" url="release_notes/release_1503a.html"/>
+	<mapID target="release_notes_overview" url="release_notes/release_notes_overview.html"/>
+</map>
