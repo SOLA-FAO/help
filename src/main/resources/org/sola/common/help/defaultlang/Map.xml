@@ -8,7 +8,6 @@
 	<mapID target="00d_ui_navigation_diagram" url="images/00d_ui_navigation_diagram.png"/>
 	<mapID target="00_app_lifecycle" url="images/00_app_lifecycle.png"/>
 	<mapID target="01_dashboard" url="images/01_dashboard.png"/>
-	<mapID target="10a1_map_orthophoto_layer" url="images/10a1_map_orthophoto_layer.png"/>
 	<mapID target="10a_map_layers_tab" url="images/10a_map_layers_tab.PNG"/>
 	<mapID target="10b_map_find_tab" url="images/10b_map_find_tab.png"/>
 	<mapID target="10c_orthophoto_layer" url="images/10c_orthophoto_layer.png"/>

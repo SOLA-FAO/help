@@ -7,7 +7,7 @@
 
 <helenProject version="1.0">
     <documents>
-		<directory title="C:/Work/source/SOLASL/code/common/help/src/main/resources/org/sola/common/help/defaultlang">
+		<directory title="C:/Work/source/SOLASL_/code/common/help/src/main/resources/org/sola/common/help/defaultlang">
 			<directory title="appendix">
 				<file title="also_see.html"/>
 				<file title="app_business_rules.html"/>
@@ -216,7 +216,6 @@
 				<file title="00d_ui_navigation_diagram.png"/>
 				<file title="01_dashboard.png"/>
 				<file title="10_map_viewer.png"/>
-				<file title="10a1_map_orthophoto_layer.png"/>
 				<file title="10a_map_layers_tab.PNG"/>
 				<file title="10b_map_find_tab.png"/>
 				<file title="10c_orthophoto_layer.png"/>

@@ -28,9 +28,9 @@
 	</view>
 	<presentation default="true" displayviews="true" displayviewimages="true">
 		<name>main</name>
-		<size width="1024" height="800" />
+		<size width="860" height="600" />
 		<location x="200" y="50" />
-		<title>SOLA State Land Desktop Help</title>
+		<title>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State Land Desktop Help</title>
 		<image>logo_icon_large</image>
 		<toolbar>
 			<helpaction>javax.help.HomeAction</helpaction>
