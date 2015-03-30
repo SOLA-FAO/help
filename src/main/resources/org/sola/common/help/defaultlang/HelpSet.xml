@@ -30,7 +30,8 @@
 		<name>man</name>
 		<size width="800" height="600" />
 		<location x="200" y="50" />
-		<title>        Registry Desktop Help</title>
+		<!-- Add 8 non breaking spaces before the title so that the title does not overlap with the sola icon -->
+		<title>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Registry Desktop Help</title>
 		<image>logo_icon_large</image>
 		<toolbar>
 			<helpaction>javax.help.HomeAction</helpaction>
